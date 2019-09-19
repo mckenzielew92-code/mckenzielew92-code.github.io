@@ -18,12 +18,48 @@
     footer { background-color:lightgray;
       }
   </style>
+
+  <script>
+    let daynames = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ];
+    
+    let months = [
+      "January",
+      "Febuary",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ];
+    let d = new Date();
+    let dayName = daynames[d.getDay()];
+    let monthName = months[d.getMonth()];
+    let fulldate = dayName + ","+ monthName + " " + d.getDate()
+    + "," + d.getFullYear();
+
+    document.getElementById("current-date").textContent = fulldate;
+  </script>
+
   <title>Course Portal Home Page! Week 1</title>
 </head>
 
 <body>
   <header>
       <h1>McKenzie Lewis</h1>
+      <img src=""> </img>
   </header>
  <main>
    <div>
@@ -38,8 +74,9 @@
    </div>
 </main>
    <footer>
-   <p>2020|McKenzie Lewis|Utah|BYUI Online Learning</p>
-   <p>Last Updated:</p>
+   <p>2020 | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+  </p>
+   <p>Last Updated:<span id="current-date"></span></p>
    </footer>
  </body>
  
