@@ -1,14 +1,15 @@
 <!DOCTYPE HTML>
 <style>
-    body { color:midnightblue;
+    body 
+        { color:midnightblue;
         width:48%;
         flex: 1.0 15em;
         margin: .5em;
-      }
-    header { background-color:lightgray;
-      }
-    main { background-color:lavenderblush;
-       }
-    footer { background-color:lightgray;
-      }
-  </style>
+        }
+    header 
+        { background-color:lightgray;
+        }
+    footer 
+        { background-color:lightgray;
+        }
+</style>
