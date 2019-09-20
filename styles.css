@@ -1,15 +1,31 @@
-     img { display: flex;
+img { 
+    float:right;
+    padding-bottom:150px;
+    padding-right:25px;
+ }
+body 
+  { 
+    width:48%;
+    
+   }
+main {
+    color:rgb(104, 104, 116);
+}
+header 
+  {
+    background-color:midnightblue;
+    color: lavenderblush;
+    font-family: "Century Gothic" , calibri;
+    text-align:center;
 
-    }
-    body 
-        { color:midnightblue;
-        width:48%;
-        flex: 1.0 15em;
-        margin: .5em;
-        }
-    header 
-        { background-color:lightgray;
-        }
-    footer 
-        { background-color:lightgray;
-        }
+  }
+footer 
+  {
+    background-color:midnightblue;
+    color:lavenderblush;
+  }
+
+  #course-name {
+    border-bottom-style: solid;
+    border-bottom-color:rgb(104, 104, 116)
+  }
