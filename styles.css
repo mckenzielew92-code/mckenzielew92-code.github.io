@@ -1,5 +1,6 @@
+     img { display: flex;
 
-<style>
+    }
     body 
         { color:midnightblue;
         width:48%;
@@ -12,4 +13,3 @@
     footer 
         { background-color:lightgray;
         }
-</style>
