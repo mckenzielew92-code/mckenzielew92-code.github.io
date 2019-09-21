@@ -9,51 +9,12 @@
         assignment to be worked upon during the course of the semester.
         McKenzie Lewis CIT 230: Web Frontend Development at BYUI">
   
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="date.js" type="text/js" href="date.js">
-   <style>
-   img { 
-    position: relative;
-    bottom:50px;
-    float:right;
-    padding-bottom: 100px;
-    padding-right:25px;
- }
-body 
-  { 
-    width:480px;
-    height: 300px;
-    background-color: rgb(120, 187, 196)
-    
-   }
-main {
-    color:rgb(104, 104, 116);
-    font-family: "Antonio" , cochin;
-}
-header 
-  {
-    background-color:rgb(245, 180, 107);
-    color:rgb(255, 222, 160);
-    font-family: "Century Gothic" , calibri;
-  }
+  <link rel="stylesheet" href="/styles.css">
+  <script src="date.js"></script>
+  <link rel="date.js" href="/date.js">
 
-
-footer 
-  {
-    text-align:center;
-    background-color:rgb(245, 180, 107);
-    color:rgb(255, 222, 160);
-    font-family: "Century Gothic" , calibri;
-  }
-
-  #course-name {
-    border-bottom-style: solid;
-    border-bottom-color:rgb(104, 104, 116);
-    border-bottom-width: 2px;
-  }
-
-  </style>   
   <title>Course Portal Home Page! Week 1</title>
+
 </head>
 
 <body>
@@ -74,9 +35,9 @@ footer
    </div>
 </main>
    <footer>
-   <p>&copy;2020 | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+   <p>&copy;<span id="current-date"></span> | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
   </p>
-   <p>Last Updated:<span id="current-date"></span></p>
+   <p>Last Updated:<span id="last-modified"></span></p>
    </footer>
  </body>
  
