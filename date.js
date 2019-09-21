@@ -30,5 +30,5 @@
 
     document.getElementById("current-date").innerHTML = d.getFullYear();
 
-    let lastModified = new date(document.lastModified);
-    document.getElementById("last-modified").innerHTML = new date
+    let lastModified = document.lastModified;
+    document.getElementById("last-modified").innerHTML = lastModified;
