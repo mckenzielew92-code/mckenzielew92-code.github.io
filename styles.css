@@ -2,13 +2,13 @@ img {
     position: relative;
     bottom:50px;
     float:right;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-right:25px;
     padding-left:15px;
  }
 body 
   { 
-    width:480px;
+    width:520px;
     height: 300px;
     background-color: rgb(120, 187, 196)
     
@@ -22,6 +22,7 @@ header
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
     font-family: "Century Gothic" , calibri;
+    text-align: center;
   }
 
 
