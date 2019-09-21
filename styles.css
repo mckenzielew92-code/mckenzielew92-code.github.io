@@ -32,6 +32,7 @@ footer
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
     font-family: "Century Gothic" , calibri;
+    font-size: 15px;
   }
 
   #course-name {
