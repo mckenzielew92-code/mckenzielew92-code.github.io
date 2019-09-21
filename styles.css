@@ -21,7 +21,7 @@ header
   {
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
-    font-family: "Century Gothic" , calibri;
+    font-family: "Century Gothic" , century;
     text-align: center;
   }
 
@@ -31,7 +31,7 @@ footer
     text-align:center;
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
-    font-family: "Century Gothic" , calibri;
+    font-family: "Century Gothic" , century;
   }
 
   #course-name {
