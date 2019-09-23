@@ -13,15 +13,17 @@ body
    }
 main {
     color:rgb(104, 104, 116);
-    font-family: "Antonio" , cochin;
+    font-family: 'Lora', serif;
+
 }
 header 
   {
     height: 75px;
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
-    font-family: "Century GoCthic" , calibri;
     text-align: center;
+    font-family: 'Be Vietnam', sans-serif;
+
   }
 
 
@@ -30,7 +32,8 @@ footer
     text-align:center;
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
-    font-family: "Century Gothic" , calibri;
+    font-family: 'Be Vietnam', sans-serif;
+
   }
 
   #course-name {
