@@ -1,13 +1,12 @@
-img { 
+img {  
     position: relative;
     bottom:50px;
     float:right;
-    padding-right:25px;
-    padding-left:15px;
+    margin-right:20px;
  }
 body 
   { 
-    width:550px;
+    width:50%;
     background-color: rgb(120, 187, 196)
     
    }
@@ -33,6 +32,8 @@ footer
     background-color:rgb(245, 180, 107);
     color:rgb(255, 222, 160);
     font-family: 'Be Vietnam', sans-serif;
+    padding-top:7px;
+    padding-bottom:7px;
 
   }
 
@@ -44,11 +45,6 @@ footer
 
   h1
   {
-      padding-top:17.5px;
-  }
-  p{
-      text-align:center;
-      padding-top:7px;
-      padding-bottom:7px;
+      padding-top:12px;
   }
  
