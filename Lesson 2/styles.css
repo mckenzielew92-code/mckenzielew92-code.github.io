@@ -3,6 +3,11 @@
 main{
     display: grid;
     grid-template-columns: 1rf;
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading{
+    font-family: 'Rubik', sans-serif;
 }
 
 /*tablet view*/
