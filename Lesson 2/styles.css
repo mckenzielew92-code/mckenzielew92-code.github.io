@@ -1,0 +1,25 @@
+/*mobile view or baseline views*/
+
+main{
+    display: grid;
+    grid-template-columns: 1rf;
+}
+
+/*tablet view*/
+@media only screen and (minwidth:37.5em)
+{
+    main{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* Desktop view*/
+@media only screen and (minwidth:60em)
+{
+    main{
+
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}

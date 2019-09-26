@@ -1,12 +1,13 @@
-img {  
+img { 
     position: relative;
     bottom:50px;
     float:right;
-    margin-right:20px;
+    padding-right:25px;
+    padding-left:15px;
  }
 body 
   { 
-    width:50%;
+    width:550px;
     background-color: rgb(120, 187, 196)
     
    }
