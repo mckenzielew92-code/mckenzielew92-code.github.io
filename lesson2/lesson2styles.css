@@ -74,7 +74,7 @@ main{
 
 
 /* Desktop view*/
-@media only screen and (max-width:1000px)
+@media only screen and (max-width:800px)
 {
     main{
      grid-template-columns: 1fr;
