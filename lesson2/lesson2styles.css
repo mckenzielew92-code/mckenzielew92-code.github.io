@@ -6,6 +6,7 @@ body{
 
 main{
     display: grid;
+    grid-gap: 18px;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #fff4d3;
     
@@ -17,16 +18,32 @@ main{
 /*mobile view or baseline views*/
 
 main{
-    max-width:767px;
     margin:0 auto;
 }
  h2
- {
+ {  
+     text-align: center;
      color:#fca17d;
  }
 
  h3{
      color:#77b280;
+     text-align: center;
+ }
+
+ p{
+    padding-left: 10px;
+    justify-content: center;
+ }
+
+ .sites{
+    display:flex;
+    align-items: flex-end;
+ }
+
+ .images{
+     display:flex;
+     justify-content: center;
  }
 
 /*tablet view*/
