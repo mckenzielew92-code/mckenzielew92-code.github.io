@@ -8,7 +8,8 @@ img {
 body 
   { 
     width:550px;
-    background-color: rgb(120, 187, 196)
+    background-color: rgb(120, 187, 196);
+    margin-left: 15px;
     
    }
 main {
