@@ -1,7 +1,8 @@
 body{
     font: size 20;
     font-family: 'Roboto Slab', serif;
-    background-color: rgb(142, 180, 187)
+    background-color: rgb(142, 180, 187);
+    margin:16px;
 }
 
 main{
@@ -25,7 +26,7 @@ section{
 /*mobile view or baseline views*/
 
 main{
-     margin:0 auto;
+     margin: auto;
 }
  h2
  {  
@@ -55,16 +56,16 @@ main{
  }
 
 /*tablet view*/
-@media only screen and (maxwidth:37.5em)
+@media only screen and (max-width:1000px)
 {
     main{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     }
 }
 
 
 /* Desktop view*/
-@media only screen and (maxwidth:60em)
+@media only screen and (max-width:625px)
 {
     main{
      grid-template-columns: 1fr;
