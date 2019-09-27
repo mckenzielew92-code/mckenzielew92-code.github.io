@@ -5,12 +5,16 @@ body{
     margin:16px;
 }
 
+h1{
+    text-align: center;
+}
 main{
     display: grid;
     grid-gap: 18px;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+
 
 section{
     background-color: #fcf6e5;
@@ -22,6 +26,8 @@ section{
 
 .heading{
     font-family: 'Rubik', sans-serif;
+    text-align: center;
+    
 }
 /*mobile view or baseline views*/
 
@@ -30,13 +36,14 @@ main{
 }
  h2
  {  
-     text-align: center;
+     
      color:#fca17d;
+     
  }
 
  h3{
      color:#77b280;
-     text-align: center;
+     
  }
 
 
@@ -48,6 +55,7 @@ main{
      justify-content: center;
      align-items: flex-end;
  }
+
 
  .images{
      margin:auto;
