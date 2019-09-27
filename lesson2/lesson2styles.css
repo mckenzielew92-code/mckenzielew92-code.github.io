@@ -8,7 +8,12 @@ main{
     display: grid;
     grid-gap: 18px;
     grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+section{
     background-color: #fff4d3;
+    padding:15px;
     
 }
 
@@ -31,34 +36,33 @@ main{
      text-align: center;
  }
 
- p{
-    padding-left: 10px;
-    justify-content: center;
- }
+
 
  .sites{
+     margin:auto;
     display:flex;
     align-items: flex-end;
  }
 
  .images{
+     margin:auto;
      display:flex;
      justify-content: center;
  }
 
 /*tablet view*/
-@media only screen and (minwidth:37.5em)
+@media only screen and (maxwidth:37.5em)
 {
     main{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     }
 }
 
 
 /* Desktop view*/
-@media only screen and (minwidth:60em)
+@media only screen and (maxwidth:60em)
 {
     main{
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr;
     }
 }
