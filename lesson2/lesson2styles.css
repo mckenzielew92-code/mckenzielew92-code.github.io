@@ -1,7 +1,7 @@
 body{
     font: size 20;
     font-family: 'Roboto Slab', serif;
-    background-color: #E2E2E0
+    background-color: rgb(142, 180, 187)
 }
 
 main{
@@ -12,8 +12,10 @@ main{
 }
 
 section{
-    background-color: #fff4d3;
+    background-color: #fcf6e5;
     padding:15px;
+    border-style:hidden;
+    border-radius:5px;
     
 }
 
@@ -23,7 +25,7 @@ section{
 /*mobile view or baseline views*/
 
 main{
-    margin:0 auto;
+     margin:0 auto;
 }
  h2
  {  
@@ -39,9 +41,11 @@ main{
 
 
  .sites{
+
      margin:auto;
-    display:flex;
-    align-items: flex-end;
+     display:flex;
+     justify-content: center;
+     align-items: flex-end;
  }
 
  .images{
