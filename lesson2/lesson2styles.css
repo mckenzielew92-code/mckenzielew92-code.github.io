@@ -73,8 +73,8 @@ main{
 }
 
 
-/* Desktop view*/
-@media only screen and (max-width:800px)
+/* phone view*/
+@media only screen and (max-width:600px)
 {
     main{
      grid-template-columns: 1fr;
