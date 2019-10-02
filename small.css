@@ -1,14 +1,12 @@
-img { 
-    position: relative;
-    bottom:50px;
-    padding-right:25px;
-    padding-left:15px;
+header img { 
+    min-width: 35px;
+    padding-bottom: 20px;
  }
 body 
   { 
-    width:550px;
+    max-width:550px;
     background-color: rgb(120, 187, 196);
-    margin-left: 15px;
+    margin: auto;
     
    }
 main {
@@ -18,11 +16,11 @@ main {
 }
 header 
   {
-    height: 75px;
     background-color:rgb(245, 180, 107);
-    color:rgb(255, 222, 160);
+    color: white;
     text-align: center;
     font-family: 'Be Vietnam', sans-serif;
+    padding: 15px;
 
   }
 
@@ -31,7 +29,7 @@ footer
   {
     text-align:center;
     background-color:rgb(245, 180, 107);
-    color:rgb(255, 222, 160);
+    color:white;
     font-family: 'Be Vietnam', sans-serif;
     padding-top:7px;
     padding-bottom:7px;
@@ -47,5 +45,6 @@ footer
   h1
   {
       padding-top:12px;
+      margin: 0px;
   }
  
