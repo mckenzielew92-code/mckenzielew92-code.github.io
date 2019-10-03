@@ -1,7 +1,54 @@
-h1 {
-    font-family: 'Playfair Display', serif;
+body{
+    margin: 0 auto;
+    max-width: 700px;
+    
+} 
+header{
+     display:flex;
+     align-items: center;
+     background-color: #0d1321;
+     color: #F0ebd8;
+     padding:10px;
+     font-size: 2em;
+}
+nav{
+    background-color: #3e5c76;
+    padding:3px;
+
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#F0ebd8;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 main {
     font-family: 'Noto Sans', sans-serif;
+    background-color:#F0ebd8;
+    color:#0d1321;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+footer{
+    text-align: center;
+    background-color: #0d1321;
+    color: #F0ebd8;
+    padding:10px;
+    line-height: 2px;
+}
+#color-img{
+    width:500px;
+    border: 1px solid black;
 }
