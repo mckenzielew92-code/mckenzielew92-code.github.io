@@ -10,10 +10,12 @@ header{
      color: #F0ebd8;
      padding:10px;
      font-size: 2em;
+     height: 100px;
 }
 nav{
     background-color: #3e5c76;
     padding:3px;
+    height:40px;
 
 }
 nav ul{
@@ -24,11 +26,12 @@ nav ul{
     justify-content: space-evenly;
 }
 
+
 nav li a{
     text-decoration: none;
     color:#F0ebd8;
     font-family: 'Noto Sans', sans-serif;
-    padding:10px;
+  
 }
 nav a:hover{
     background-color: #748cab;
@@ -40,17 +43,21 @@ main {
     background-color:#F0ebd8;
     color:#0d1321;
     padding: 20px;
+    margin:30;
 }
 h1 {
     font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
 }
 
 footer{
     text-align: center;
     background-color: #0d1321;
     color: #F0ebd8;
-    padding:10px;
     line-height: 2px;
+    padding: 10px;
+    height: 70px;
 }
 #color-img{
     width:500px;
@@ -59,4 +66,7 @@ footer{
 #playfair-img{
     padding-right:30px;
     padding-left:8px;
+}
+.pw-logo{
+    width: 200px;
 }
