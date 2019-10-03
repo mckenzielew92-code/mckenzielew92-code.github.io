@@ -22,13 +22,17 @@ nav ul{
     list-style-type: none;
     align-items: center;
     justify-content: space-evenly;
-    text-align: center;
 }
 
 nav li a{
     text-decoration: none;
     color:#F0ebd8;
     font-family: 'Noto Sans', sans-serif;
+    padding:10px;
+}
+nav a:hover{
+    background-color: #748cab;
+    color: #0D1321;
 }
 
 main {
@@ -51,4 +55,8 @@ footer{
 #color-img{
     width:500px;
     border: 1px solid black;
+}
+#playfair-img{
+    padding-right:30px;
+    padding-left:8px;
 }
