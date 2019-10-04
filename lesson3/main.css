@@ -70,3 +70,14 @@ footer{
 .pw-logo{
     width: 200px;
 }
+
+/* phone view*/
+@media only screen and (max-width:600px)
+{
+    nav ul{
+        flex-direction: column;
+    }
+    nav{
+        height:100px;
+    }
+}
