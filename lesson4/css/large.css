@@ -28,6 +28,15 @@ nav ul li a{
     font-family: 'Noto Sans', sans-serif;
     color: #F0ebd8;
 }
+.navigation li:first-child{
+    display:block;
+}
+.navigation li{
+    display: block;
+}
+.responsive li{
+    display: block;
+}
 #header-img{
     width: 150px;
 }
@@ -67,4 +76,10 @@ footer{
 }
 main footer{
     max-width: 800px;
+}
+@media only screen and (min-width:750px)
+{
+.navigation li:first-child{
+    display: none;
+}
 }

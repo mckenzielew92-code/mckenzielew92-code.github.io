@@ -8,7 +8,8 @@
     <meta description="This is the assignment for week 4 of the weather site project.  This week we are working on the Preston page of the site.">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="medium.css"/>
 </head>
 <body>
     <header>
@@ -22,8 +23,11 @@
             </div>
         </section> 
     </header>
-    <nav>
-        <ul>
+    <nav class="navigation">
+        <ul class="navigation responsive">
+            <li>
+                <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+            </li>
             <li>
                 <a href="#">Home</a>
             </li>
@@ -71,7 +75,7 @@
             &copy; <span id="current-date"></span> | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
         </p>
         <p>
-            Last Updated:<span id="last-modified"></span>
+            Current Date:<span id="today's-date"></span>
         </p>
     </footer>
     <script src="js"></script>
