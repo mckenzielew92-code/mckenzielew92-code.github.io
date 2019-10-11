@@ -17,5 +17,5 @@ var dd =  today.getDate()
 var mm = today.getMonth()+1;
 var yyyy = today.getFullYear();
 
-today = dow + ", " + mm + " " + dd + ", " + yyyy;
+today = " " + dow + ", " + mm + " " + dd + ", " + yyyy;
 document.getElementById("todays-date").innerHTML = today;
