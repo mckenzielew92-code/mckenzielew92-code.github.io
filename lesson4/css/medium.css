@@ -15,4 +15,11 @@
     h2{
         font-size: 22px;
     }
+    .responsive li{
+        display:block;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+    }
 }
