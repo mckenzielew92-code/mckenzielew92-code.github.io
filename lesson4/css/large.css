@@ -43,8 +43,7 @@ nav ul li a{
 #slogan{
     font-style: italic;
     font-size: 12px;
-    border-bottom:solid 1px;
-    border-bottom-color: #F0ebd8;
+    text-decoration: underline;
 }
 .headings{
         display:flex;
