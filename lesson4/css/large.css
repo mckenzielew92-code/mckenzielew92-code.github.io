@@ -5,23 +5,27 @@ header{
     width:100%;
     background-color: #0d1321;
     color: #F0ebd8;
-    padding:5px;
-    display:flex;
+    padding: 5px;
+    display: flex;
     align-items: center;
     justify-content: center;
     
 }
 nav{
     background-color: #3E5C76;
-    padding:1px;
+    padding: 1px;
 }
 nav ul{
-    display:flex;
+    display: flex;
     align-content: center;
     justify-content: space-evenly;
-    padding:0px;
-    margin:5px;
+    padding: 0px;
+    margin: 5px;
     list-style-type: none;
+}
+nav a:hover{
+    background-color: #748cab;
+    color: #0D1321;
 }
 nav ul li a{
     text-decoration: none;
@@ -29,7 +33,7 @@ nav ul li a{
     color: #F0ebd8;
 }
 .navigation li:first-child{
-    display:block;
+    display: block;
 }
 .navigation li{
     display: none;
@@ -56,6 +60,9 @@ nav ul li a{
 }
 h1{
     font-size: 45px;
+}
+h2{
+    font-size: 1.3em;
 }
 main{
     background-color: #F0ebd8;

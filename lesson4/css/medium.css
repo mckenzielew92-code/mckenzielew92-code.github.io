@@ -17,9 +17,11 @@
     }
     .responsive li{
         display:block;
+        padding:5px;
     }
     ul.responsive{
         flex-direction: column;
         text-align:center;
+        padding: 5px;
     }
 }
