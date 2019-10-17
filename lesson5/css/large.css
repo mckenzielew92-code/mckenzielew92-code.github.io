@@ -27,10 +27,16 @@ nav a:hover{
     background-color: #748cab;
     color: #0D1321;
 }
+nav a:focus{
+    text-decoration: underline;
+    background-color: #F0ebd8;
+    color: #3E5C76;
+}
 nav ul li a{
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     color: #F0ebd8;
+
 }
 .navigation li:first-child{
     display: block;
@@ -59,14 +65,19 @@ nav ul li a{
         margin:10px;
 }
 #preston-heading{
-    font-family: "fair display"
+    font-family: "fair display";
+    text-align: center;
+    font-size: 2.3em;
+    color:#1D2D44;
 }
 h1{
     font-size: 45px;
 }
 h2{
-    font-size: 1.3em;
-    text-align: center;   
+    font-size: 1.3em;  
+}
+h2{
+    text-align:center;
 }
 h3{
     text-align:center;
@@ -76,7 +87,7 @@ main section{
     background-color: #F0ebd8;
     padding: 5px;
     justify-content: center;
-    margin:10px;
+    margin:20px;
 }
 main{
     background-color: #ffffff;
@@ -91,16 +102,41 @@ main{
 }
 #hero-section{
     height:15em;
+    background-color:#ffffff;
+    border:none; 
 }
 
 #weather-summary{
     position: absolute;
-    padding:5px;
+    padding:15px;
+    width:300px;
+    height:125px;
     max-width: 800px;
     top:60px;
-    border: 1px solid #0d1321;
-    background-color: #748cab;
-    opacity: .75;
+    left:60px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(29,45,68);
+    color:#F0ebd8;
+    font-size: .75rem;
+}
+#weather-heading{
+   margin:0;
+   text-align: center;
+   padding:5px;
+   text-decoration: underline;
+   color:#F0ebd8;
+   font-size: 1rem;
+}
+#umbrella-img{
+    height:220px;
+    width:750px;
+    margin-top:10px;
+}
+
+#forecast-section{
+    width:400px;
+    margin: auto;
 }
 
 footer{
