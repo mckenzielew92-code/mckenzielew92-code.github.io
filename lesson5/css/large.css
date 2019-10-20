@@ -13,21 +13,23 @@ header{
 }
 nav{
     background-color: #3E5C76;
-    padding: 1px;
 }
 nav ul{
     display: flex;
     align-content: center;
     justify-content: space-evenly;
     padding: 0px;
-    margin: 5px;
+    margin: 0px;
     list-style-type: none;
 }
-nav a:hover{
+nav li{
+    padding:5px;
+}
+nav li:hover{
     background-color: #748cab;
     color: #0D1321;
 }
-nav a:focus{
+nav li:focus{
     text-decoration: underline;
     background-color: #F0ebd8;
     color: #3E5C76;
@@ -128,7 +130,7 @@ main{
    font-size: 1rem;
 }
 #umbrella-img{
-    width:750px;
+    width:100%;
     margin-top:10px;
 }
 
@@ -136,9 +138,13 @@ main{
     margin: auto;
     display:flex;
     flex-direction: row;
+    max-width: 800px;
 }
 #food-img{
     float: left;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
 }
 footer{
     background-color: #0d1321;
@@ -154,5 +160,23 @@ main footer{
 {
 .navigation li:first-child{
     display: none;
+}
+.forecast{
+    padding:10px;
+}
+.forcast-days{
+   padding-bottom:5px;
+   margin:3px;
+}
+div{
+    padding:5px;
+}
+.sun-icon{
+    display: flex;
+    justify-content: center;
+}
+#map-img{
+    float:right;
+    width:150px;
 }
 }
