@@ -1,13 +1,7 @@
 function pancakeDay(){
-    let d =date();
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let dow = days [d.getDay()];
+var wd = new Date().getDay();
 
-    if (dow == "Monday"){
-        document.getElementById("pancakeDay").innerhtml = "Come join us for pancakes in Downtown Preston Park every Friday at 9 A.M.!"
-    }
-    else {document.getElementById("pancakeDay").style.display = "none";
+if (wd == 1) {
+    document.getElementById("pancakes").innerHTML = "Come join us for pancakes in the park!  Preston Downtown Park, 9 A.M. EVERY Friday!"
 }
 }
-
-/* Last code not working...I'll try this one */
