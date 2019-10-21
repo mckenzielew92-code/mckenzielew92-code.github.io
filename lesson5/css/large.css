@@ -87,6 +87,7 @@ h3{
 main section{
     border:1px solid #0d1321;
     background-color: rgba(240,235,215,0.5);
+    color:#1D2D44;
     padding: 5px;
     justify-content: center;
     margin:20px;
@@ -152,6 +153,7 @@ footer{
     padding:10px;
     margin:auto;
     font-family: 'Noto Sans', sans-serif;
+    text-align: center;
 }
 main footer{
     max-width: 800px;
@@ -180,5 +182,10 @@ div{
     width:150px;
     margin-top:40px;
     margin-right:40px;
+}
+#pancakeDay{
+    background-color: #f6d66f;
+    color: #0D1321;
+
 }
 }
