@@ -118,9 +118,10 @@ main{
     left:60px;
     border: 0px;
     border-radius: 3px;
-    background-color: rgba(29,45,68);
+    background-color: rgba(80,99,77,0.95);
     color:#F0ebd8;
     font-size: .75rem;
+    box-shadow: 5px 5px 20px #1D2D44;
 }
 #weather-heading{
    margin:0;
