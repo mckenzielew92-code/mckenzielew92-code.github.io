@@ -1,0 +1,1 @@
+WebFont.load({fonts.google.com: {serif, sans-serif: ["Lora","Be Vietnam"]}});
