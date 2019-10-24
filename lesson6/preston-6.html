@@ -57,9 +57,10 @@
         <div id="div-one">
             <section id="hero-section">
                 <picture id="hero-pic">
-                    <img id="hero-img" src="/images/cit230_image_franklinMediumCopy.jpg" alt="landscape image with sun beaming"
-                    srcset=" 1x, 2x, 3x">
-
+                    <img id="hero-img" src="/images/HeroWeatherDefault.jpg" alt="landscape image with sun beaming">
+                    <source srcset="/images/HeroWeatherSmall.jpg" media="(max-width: 414px)">
+                    <source srcset="/images/HeroWeatherMedium.jpg" media="(min-width: 415px) and (max-width: 1024px)">
+                    <source srcset="/images/HeroWeatherLarge" media="(min-width:1025px)">
                  </picture> 
             </section>
             <div id="weather-summary">
@@ -78,17 +79,23 @@
                 <p>
                     Wind Speed: <span id="wind-speed">7mph</span>
                 </p>
-        </div>
-        </div>
+            </div>
+         </div>
         <h3 id="forecast-header">
             5 Day Forecast
         </h3>
         <section id="forecast-section">
                 <div id="thu"class="forecast">
                     <h4 class="forcast-days">Thu</h4>
-                    <div id="thu-high"> High: 90&#176;
+                    <div id="thu-high" class="high"> High: 90&#176;
                     </div>
                     <div id="thu-low"> Low: 67&#176;
+                    </div>
+                    <div class="speed">
+                        Wind-Speed: 7pmh
+                    </div>
+                    <div>
+                        Wind-Chill:<span class="windchill"></span>
                     </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
@@ -96,40 +103,64 @@
                 </div>
                 <div id="fri"class="forecast">
                     <h4 class="forcast-days">Fri</h4>
-                    <div id="fri-high"> High: 93&#176;
+                    <div id="fri-high" class="high"> High: 93&#176;
                     </div>
                     <div id="fri-low"> Low: 70&#176;
                     </div>
+                    <div class="speed">
+                        Wind-Speed: 7pmh
+                    </div>
+                    <div>
+                            Wind-Chill:<span class="windchill"></span>
+                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
                 </div>
                 <div id="sat"class="forecast">
                     <h4 class="forcast-days">Sat</h4>
-                    <div id="sat-high"> High: 89&#176;
+                    <div id="sat-high"class="high"> High: 89&#176;
                     </div>
                     <div id="sat-low"> Low: 65&#176;
                     </div>
+                    <div class="speed">
+                        Wind-Speed: 7pmh
+                    </div>
+                    <div>
+                            Wind-Chill:<span class="windchill"></span>
+                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
                 </div>
                 <div id="sun"class="forecast">
                     <h4 class="forcast-days">Sun</h4>
-                    <div id="sun-high"> High: 86&#176;
+                    <div id="sun-high" class="high"> High: 86&#176;
                     </div>
                     <div id="sun-low"> Low: 63&#176;
                     </div>
+                    <div class="speed">
+                        Wind-Speed: 7pmh
+                    </div>
+                    <div>
+                            Wind-Chill:<span class="windchill"></span>
+                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
                 </div>
                 <div id="mon"class="forecast">
                     <h4 class="forcast-days">Mon</h4> 
-                    <div id="mon-high"> High: 86&#176;
+                    <div id="mon-high" class="high"> High: 86&#176;
                     </div>
                     <div id="mon-low"> Low: 63&#176;
                     </div>
+                    <div class="speed">
+                        Wind-Speed: 7pmh
+                    </div>
+                    <div>
+                            Wind-Chill:<span class="windchill"></span>
+                        </div>
                     <div id="mon-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>

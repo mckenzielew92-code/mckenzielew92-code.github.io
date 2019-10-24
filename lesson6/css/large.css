@@ -158,7 +158,7 @@ footer{
 main footer{
     max-width: 800px;
 }
-@media only screen and (min-width:750px)
+@media only screen and (min-width:1000px)
 {
 .navigation li:first-child{
     display: none;
@@ -188,6 +188,7 @@ div{
     color: #0D1321;
 
 }
-nav ul{
+picture{
+    width:100%;
 }
 }
