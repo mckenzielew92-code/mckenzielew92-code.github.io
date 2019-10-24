@@ -1,0 +1,193 @@
+body{
+    margin:auto;
+}
+header{
+    width:100%;
+    background-color: #0d1321;
+    color: #F0ebd8;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    background-color: #3E5C76;
+}
+nav ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav li{
+    padding:5px;
+}
+nav li:hover{
+    background-color: #748cab;
+    color: #0D1321;
+}
+nav li:focus{
+    text-decoration: underline;
+    background-color: #F0ebd8;
+    color: #3E5C76;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: #F0ebd8;
+
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+#header-img{
+    width: 150px;
+}
+#slogan{
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.headings{
+        display:flex;
+        flex-direction: column;
+        line-height: 1%;
+        align-items: center;
+        justify-content: center;
+        padding:5px;
+        margin:10px;
+}
+#preston-heading{
+    font-family: "fair display";
+    text-align: center;
+    font-size: 2.3em;
+    color:#1D2D44;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 1.3em;  
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+main section{
+    border:1px solid #0d1321;
+    background-color: rgba(240,235,215,0.5);
+    color:#1D2D44;
+    padding: 5px;
+    justify-content: center;
+    margin:20px;
+}
+main{
+    background-color: #ffffff;
+    color: #0d1321;
+    padding:10px;
+    max-width: 800px;
+    margin:auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+#div-one{
+    position: relative;
+}
+#hero-section{
+    background-color:#ffffff;
+    border:none; 
+}
+
+#weather-summary{
+    position: absolute;
+    padding:15px;
+    width:30%;
+    height:50%;
+    top:60px;
+    left:60px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(80,99,77,0.95);
+    color:#F0ebd8;
+    font-size: .75rem;
+    box-shadow: 5px 5px 20px #1D2D44;
+}
+#weather-heading{
+   margin:0;
+   text-align: center;
+   padding:5px;
+   text-decoration: underline;
+   color:#F0ebd8;
+   font-size: 1rem;
+}
+#hero-img{
+    width:100%;
+    margin-top:10px;
+}
+
+#forecast-section{
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    max-width: 800px;
+}
+#food-img{
+    float: left;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+footer{
+    background-color: #0d1321;
+    color: #F0ebd8;
+    padding:10px;
+    margin:auto;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+main footer{
+    max-width: 800px;
+}
+@media only screen and (min-width:750px)
+{
+.navigation li:first-child{
+    display: none;
+}
+.forecast{
+    padding:10px;
+}
+.forcast-days{
+   padding-bottom:5px;
+   margin:3px;
+}
+div{
+    padding:5px;
+}
+.sun-icon{
+    display: flex;
+    justify-content: center;
+}
+#map-img{
+    float:right;
+    width:150px;
+    margin-top:40px;
+    margin-right:40px;
+}
+#pancakeDay{
+    background-color: #f6d66f;
+    color: #0D1321;
+
+}
+nav ul{
+}
+}
