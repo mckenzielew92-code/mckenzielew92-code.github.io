@@ -57,10 +57,9 @@
         <div id="div-one">
             <section id="hero-section">
                 <picture id="hero-pic">
-                    <img id="hero-img" src="/images/HeroWeatherDefault.jpg" alt="landscape image with sun beaming">
-                    <source srcset="/images/HeroWeatherSmall.jpg" media="(max-width: 414px)">
-                    <source srcset="/images/HeroWeatherMedium.jpg" media="(min-width: 415px) and (max-width: 1024px)">
-                    <source srcset="/images/HeroWeatherLarge" media="(min-width:1025px)">
+                    <img id="hero-img" src="/images/heroweatherdefault.jpg" alt="landscape image with sun beaming"
+                     srcset="/images/heroweatherlarge.jpg 1025w, /images/heroweathermedium.jpg 800w, /images/heroweathersmall.jpg 414w"
+                     sizes="(min-width:1024px) 900px, 100vw">
                  </picture> 
             </section>
             <div id="weather-summary">
@@ -79,6 +78,9 @@
                 <p>
                     Wind Speed: <span id="wind-speed">7mph</span>
                 </p>
+                <p>
+                    Wind-Chill: <span class="windchill"></span>
+                </p>
             </div>
          </div>
         <h3 id="forecast-header">
@@ -91,12 +93,6 @@
                     </div>
                     <div id="thu-low"> Low: 67&#176;
                     </div>
-                    <div class="speed">
-                        Wind-Speed: 7pmh
-                    </div>
-                    <div>
-                        Wind-Chill:<span class="windchill"></span>
-                    </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
@@ -107,12 +103,6 @@
                     </div>
                     <div id="fri-low"> Low: 70&#176;
                     </div>
-                    <div class="speed">
-                        Wind-Speed: 7pmh
-                    </div>
-                    <div>
-                            Wind-Chill:<span class="windchill"></span>
-                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
@@ -123,12 +113,6 @@
                     </div>
                     <div id="sat-low"> Low: 65&#176;
                     </div>
-                    <div class="speed">
-                        Wind-Speed: 7pmh
-                    </div>
-                    <div>
-                            Wind-Chill:<span class="windchill"></span>
-                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
@@ -139,12 +123,6 @@
                     </div>
                     <div id="sun-low"> Low: 63&#176;
                     </div>
-                    <div class="speed">
-                        Wind-Speed: 7pmh
-                    </div>
-                    <div>
-                            Wind-Chill:<span class="windchill"></span>
-                        </div>
                     <div id="sun-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
@@ -155,12 +133,6 @@
                     </div>
                     <div id="mon-low"> Low: 63&#176;
                     </div>
-                    <div class="speed">
-                        Wind-Speed: 7pmh
-                    </div>
-                    <div>
-                            Wind-Chill:<span class="windchill"></span>
-                        </div>
                     <div id="mon-icon">
                         <img src="/images/sunny-icon.png" alt="sunny icon">
                     </div>
