@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css"/>
 </head>
-<body>
+<body onload="newChill()">
     <header>
         <img id="header-img" src="/images/pw-logo.png" alt="pitcure of Predictable Weather's logo."/>
         <section class="headings">
@@ -79,7 +79,7 @@
                     Wind Speed: <span id="speed">7mph</span>
                 </p>
                 <p>
-                    Wind-Chill: <span class="windchill">&#176;F</span>
+                    Wind-Chill: <span id="windchill">&#176;F</span>
                 </p>
             </div>
          </div>
@@ -181,5 +181,6 @@
     <script src="js/banner.js"></script>
     <script src="js/todaysdate.js"></script>
     <script src="js/currentyear.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
