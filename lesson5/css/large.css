@@ -11,6 +11,9 @@ header{
     justify-content: center;
     
 }
+a.active{
+    text-decoration: underline;
+}
 nav{
     background-color: #3E5C76;
 }
