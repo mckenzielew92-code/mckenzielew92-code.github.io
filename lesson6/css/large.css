@@ -70,7 +70,7 @@ nav ul li a{
         margin:10px;
 }
 #preston-heading{
-    font-family: "fair display";
+    font-family: "Playfair Display";
     text-align: center;
     font-size: 2.3em;
     color:#1D2D44;
@@ -115,14 +115,14 @@ main{
     position: absolute;
     padding:15px;
     width:30%;
-    height:50%;
+    height:70%;
     top:60px;
     left:60px;
     border: 0px;
     border-radius: 3px;
     background-color: rgba(80,99,77,0.95);
     color:#F0ebd8;
-    font-size: .75rem;
+    font-size: .65rem;
     box-shadow: 5px 5px 20px #1D2D44;
 }
 #weather-heading{
@@ -131,7 +131,7 @@ main{
    padding:5px;
    text-decoration: underline;
    color:#F0ebd8;
-   font-size: 1rem;
+   font-size: .85rem;
 }
 #hero-img{
     width:100%;

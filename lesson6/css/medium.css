@@ -27,7 +27,5 @@
     #forecast-section, #forecast-header{
         display:none;
     }
-    .weather-sumary{
-        font-size: 20px;
-    }
+   
 }
