@@ -7,3 +7,10 @@ h1{
     font-family: 'Kaushan Script', cursive;
     color: #52AFAC;
 }
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+picture img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
