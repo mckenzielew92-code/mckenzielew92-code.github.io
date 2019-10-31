@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 body{
-    margin:auto;
+    margin: auto;
     width:100%;
 }
 h1{
     font-family: 'Kaushan Script', cursive;
     color: #52AFAC;
+}
+
+h1, picture{
+    margin:25px;
+    display:grid;
+    
 }
 picture img[data-src] {
     filter: blur(0.2em);
