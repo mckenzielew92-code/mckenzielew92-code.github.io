@@ -1,0 +1,28 @@
+@media only screen and (max-width:1000px)
+{
+    .navigation li, #forecast-section, #forecast-header, #contact-section img{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #header-img{
+        width:100px;
+    }
+    #slogan{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .responsive li{
+        display:block;
+        padding:5px;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+        padding: 5px;
+    }
+   
+}
