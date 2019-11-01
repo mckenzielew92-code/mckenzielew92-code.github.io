@@ -1,1 +1,7 @@
-WebFont.load({fonts.google.com: {serif, sans-serif: ["Lora","Be Vietnam"]}});
+WebFont.load({
+    google: {
+        families: [
+            "Noto Sans", "Playfair Display"
+        ]
+    }
+});

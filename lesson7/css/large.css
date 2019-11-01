@@ -3,6 +3,7 @@
 }
 body{
     margin:auto;
+    font-family: 'Noto Sans', sans-serif;
 }
 header{
     width:100%;
@@ -79,26 +80,45 @@ nav ul li a{
         padding:5px;
         margin:10px;
 }
-
 h1{
+    font-family: "Playfair Display", serif; 
     font-size: 45px;
+    text-align: center;
+}
+figure img:hover{
+    box-shadow: 5px 6px 5px #cccccc;
+}
+figure figcaption:hover{
+    text-shadow: 2px 2px 2px #cccccc;   
+}
+figure img{
+    max-width:200px;
+   height:150px;
+}
+figcaption{
+    color: #3E5C76;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 190px 190px 190px;
 }
 h2{
+    font-family: "Playfair Display", serif; 
     font-size: 1.3em;  
 }
-h2{
+h2{    
+    font-family: "Playfair Display", serif; 
     text-align:center;
 }
 h3{
+    font-family: "Playfair Display", serif; 
     text-align:center;
-}
-main section{
-    border:1px solid #0d1321;
-    background-color: rgba(240,235,215,0.5);
-    color:#1D2D44;
-    padding: 5px;
-    justify-content: center;
-    margin:20px;
 }
 main{
     background-color: #ffffff;
@@ -106,8 +126,8 @@ main{
     padding:10px;
     max-width: 800px;
     margin:auto;
-    font-family: 'Noto Sans', sans-serif;
 }
+
 #weather-heading{
    margin:0;
    text-align: center;
@@ -134,13 +154,12 @@ main footer{
     display: none;
 }
 
-div{
-    padding:5px;
-}
-
-#pancakeDay{
+#pancakes{
     background-color: #f6d66f;
     color: #0D1321;
+    padding: 15px;
+    text-align: center;
+    margin:10px 0 10px 0;
 
 }
 picture{
