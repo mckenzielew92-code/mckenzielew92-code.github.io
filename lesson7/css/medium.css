@@ -1,4 +1,4 @@
-@media only screen and (max-width:1000px)
+@media only screen and (max-width:850px)
 {
     .navigation li, #forecast-section, #forecast-header, #contact-section img{
         display: none;
@@ -24,5 +24,8 @@
         text-align:center;
         padding: 5px;
     }
-   
+   .grid-container{
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 180px 180px 180px 180px; 
+   }
 }

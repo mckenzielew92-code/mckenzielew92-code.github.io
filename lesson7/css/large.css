@@ -85,12 +85,11 @@ h1{
     font-size: 45px;
     text-align: center;
 }
-figure img:hover{
+.gal-grid:hover{
     box-shadow: 5px 6px 5px #cccccc;
+    text-shadow: 2px 2px 2px #cccccc; 
 }
-figure figcaption:hover{
-    text-shadow: 2px 2px 2px #cccccc;   
-}
+
 figure img{
     max-width:200px;
    height:150px;
@@ -104,9 +103,9 @@ figcaption{
 
 .grid-container{
     display: grid;
-    grid-gap: 25px;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 190px 190px 190px;
+    grid-gap: 0px;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 180px 180px 180px;
 }
 h2{
     font-family: "Playfair Display", serif; 
@@ -141,14 +140,14 @@ footer{
     background-color: #0d1321;
     color: #F0ebd8;
     padding:10px;
-    margin:auto;
+    margin:0 auto;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
 }
 main footer{
     max-width: 800px;
 }
-@media only screen and (min-width:1000px)
+@media only screen and (min-width:850px)
 {
 .navigation li:first-child{
     display: none;
@@ -157,7 +156,7 @@ main footer{
 #pancakes{
     background-color: #f6d66f;
     color: #0D1321;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     margin:10px 0 10px 0;
 
