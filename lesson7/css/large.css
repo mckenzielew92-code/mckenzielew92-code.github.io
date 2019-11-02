@@ -83,14 +83,15 @@ h1{
     text-align: center;
 }
 .gal-grid:hover{
-    box-shadow: 5px 6px 5px #cccccc;
+    box-shadow: 7px 8px 5px #cccccc;
     text-shadow: 2px 2px 2px #cccccc; 
 }
 
 figure img{
     max-width:200px;
-   height:150px;
+    height:150px;
 }
+
 figcaption{
     color: #3E5C76;
     font-size: 12px;
