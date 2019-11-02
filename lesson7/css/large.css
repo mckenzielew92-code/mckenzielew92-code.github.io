@@ -58,9 +58,6 @@ nav ul li a{
     display: block;
 }
 .navigation li{
-    display: none;
-}
-.responsive li{
     display: block;
 }
 #header-img{
@@ -105,7 +102,7 @@ figcaption{
     display: grid;
     grid-gap: 0px;
     grid-template-columns: 280px 280px 280px;
-    grid-template-rows: 180px 180px 180px;
+   
 }
 h2{
     font-family: "Playfair Display", serif; 
@@ -154,12 +151,12 @@ main footer{
 }
 
 #pancakes{
+    display: none;
     background-color: #f6d66f;
     color: #0D1321;
     padding: 5px;
     text-align: center;
     margin:10px 0 10px 0;
-
 }
 picture{
     width:100%;

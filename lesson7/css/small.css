@@ -1,6 +1,7 @@
-@media only screen and (max-width:450px)
+@media only screen and (max-width:550px)
 {
     .grid-container{
-        grid-template-rows: 180px 180px 180px 180px 180px 180px 180px 180px 180px; 
+        display:block;
+        text-align: center;
        }
 }
