@@ -19,11 +19,16 @@ table, td, th{
 tr{
     background-color: #e7f0ed;
 }
-table thead th{
+table th{
     background-color: #628ca6;
     font-weight: bold;
     color: white;
     padding: 10px;
+}
+table thead th{
+    color:black;
+    font-size: 26px;
+    background-color: #7fbac2;
 }
 td{
     padding: 5px;
@@ -38,5 +43,5 @@ table tr:nth-child(even){
 }
 table tfoot tr td{
     font-size: 14px;
-    background-color: #628ca6;
+    background-color: #7fbac2;;
 }
