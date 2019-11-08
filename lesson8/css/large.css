@@ -120,6 +120,17 @@ footer{
 main footer{
     max-width: 800px;
 }
+form fieldset{
+    border: 1px solid #0d1321;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+form fieldset label, form fieldset label input{
+    display:block;
+    margin-top: .5rem;
+}
+
+
 @media only screen and (min-width:850px)
 {
 .navigation li:first-child{
