@@ -121,15 +121,27 @@ main footer{
     max-width: 800px;
 }
 form fieldset{
-    border: 1px solid #0d1321;
+    border: 1px solid #748cab;
     border-radius: 6px;
     margin-top: 2rem;
 }
-form fieldset label, form fieldset label input{
+form fieldset label{
     display:block;
-    margin-top: .5rem;
+    margin-top: .75rem;
 }
-
+input, select{
+    display:block;
+}
+legend{
+    margin:0 2rem;
+    padding: .75rem;
+}
+div{
+    padding-top: 15px;
+}
+textbox{
+    width; 80%;
+}
 
 @media only screen and (min-width:850px)
 {

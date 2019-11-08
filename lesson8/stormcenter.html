@@ -58,17 +58,17 @@
             <legend>
                 Who's Reporting?
             </legend>
-            <label class="info">First & Last Name* <input type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
-            <label class="info">Phone Number*<input type="tel" name="phone" required></label>
-            <label class="info">Email<input type="email" name="email" placeholder="http://www.someonesemail@email.com"></label>
-            <label class="info">Zip Code<input type="number" name="zip" size="5" required></label>
+            <label class="info">*First & Last Name: <input type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
+            <label class="info">*Phone Number:<input type="tel" name="phone" required></label>
+            <label class="info">Email:<input type="email" name="email" placeholder="http://www.someonesemail@email.com" required></label>
+            <label class="info">*Zip Code:<input type="number" name="zip" size="5" required></label>
         </fieldset>
         <fieldset>
             <legend>
                 Report Storm Information
             </legend>
-            <label class="storm">Date<input type="date" name="date"></label>
-            <label class="storm">Storm Type<input list="storms" id="stormtype" name="stormtype">
+            <label class="storm">Date:<input type="date" name="date"></label>
+            <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
                 <datalist id="storms">
                     <option value="Flash Flood">Flash Flood</option>
                     <option value="Hail">Hail</option>
@@ -77,7 +77,7 @@
                     <option value="Tornado">Tornado</option>
                 </datalist>
             </label>
-            <label class="storm">Storm Severity<input type="range" id="rating" value="10" min="1" max="10" step="1"list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1"list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">10</span>
             </label>
             <datalist id="marks">
@@ -92,26 +92,28 @@
                 <option value="9"></option>
                 <option value="10"></option>
             </datalist>
-            <label class="storm"> Storm Region<select name="region">
+            <label class="storm"> Storm Region:<select name="region">
                 <option disabled>Select Region</option>
-                <option value="preston">Preston</option>
-                <option value="soda">Soda Springs</option>
-                <option value="fhaven">Fish Haven</option>
+                <option value="Fish Haven">Fish Haven</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
             </select>
             </label>
             <label class="storm">Are You in Danger?
-                <input type="radio" name="danger" value="danger">Yes
-            </label>
-            <label class="storm"><input type="radio" name="danger" value="nodanger">No
-            </label>
-            <label class="storm"><input type="radio" name="danger" value="maybedanger">Maybe
-            </label>
+                <div id="radio-div">
+                    Yes<input type="radio" name="danger" value="danger">
+                    </label>
+                    <label class="storm">No<input type="radio" name="danger" value="nodanger">
+                    </label>
+                    <label id="radio" class="storm">Maybe<input type="radio" name="danger" value="maybedanger">
+                    </label>
+                 </div>
         </fieldset> 
         <fieldset>
             <legend>
                 Additional Information or Comments
             </legend>
-            <label class="end">Give Us Details<input type="textarea" name="comments" placeholder="This storm ripped the roof off my house!">
+            <label class="end">Details:<input id="textbox" type="textarea" name="comments" placeholder="This storm ripped the roof off my house!">
             </label>
             <label class="end">
                 <input type="submit" value="Send Report">
@@ -130,6 +132,7 @@
     <script src="js/responsive.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/todaysdate.js"></script>
-    <script src="js/currentyear.js"></script>    
+    <script src="js/currentyear.js"></script> 
+    <script src="js/range.js"></script>     
     </body>
     </html>
