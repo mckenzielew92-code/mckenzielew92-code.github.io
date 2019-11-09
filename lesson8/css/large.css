@@ -180,7 +180,9 @@ div{
 
  }
  form input.btn:hover{
-    background-color: rgb(167, 73, 73); 
+    background-color: rgb(167, 73, 73);
+    box-shadow: 10px 10px 15px grey; 
+    border: hidden;
  }
  form input.radio{
      height: 1rem;

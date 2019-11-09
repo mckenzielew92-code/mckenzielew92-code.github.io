@@ -33,8 +33,7 @@
    }
    form input.btn:active{
        background-color: rgb(167, 73, 73);
+       box-shadow: 10px 10px 15px grey;
    }
-   form input.btn:hover{
-       transition: none;
-   }
+   
 }
