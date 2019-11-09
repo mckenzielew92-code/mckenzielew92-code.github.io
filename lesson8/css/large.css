@@ -148,6 +148,7 @@ textbox{
 .navigation li:first-child{
     display: none;
 }
+
 #pancakes{
     display: none;
     background-color: #f6d66f;
