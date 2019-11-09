@@ -24,4 +24,11 @@
         text-align:center;
         padding: 5px;
     }
+   form label, form input{
+       padding: .75rem;
+   }
+   form input.btn{
+       padding-bottom: 35px;
+   }
+  
 }

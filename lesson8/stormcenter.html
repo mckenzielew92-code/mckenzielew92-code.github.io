@@ -58,10 +58,10 @@
             <legend>
                 Who's Reporting?
             </legend>
-            <label class="info">*First & Last Name: <input type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
-            <label class="info">*Phone Number:<input type="tel" name="phone" required></label>
+            <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
+            <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
             <label class="info">Email:<input type="email" name="email" placeholder="http://www.someonesemail@email.com" required></label>
-            <label class="info">*Zip Code:<input type="number" name="zip" size="5" required></label>
+            <label class="info req">*Zip Code:<input class="req" type="number" name="zip" size="5" required></label>
         </fieldset>
         <fieldset>
             <legend>
@@ -99,13 +99,15 @@
                 <option value="Soda Springs">Soda Springs</option>
             </select>
             </label>
+             <div>
             <label class="storm">Are You in Danger?
-                <div id="radio-div">
-                    Yes<input type="radio" name="danger" value="danger">
+                    <label>
+                    Yes<input class="storm radio" type="radio" name="danger" value="danger">
+                    </label>    
                     </label>
-                    <label class="storm">No<input type="radio" name="danger" value="nodanger">
+                    <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
                     </label>
-                    <label id="radio" class="storm">Maybe<input type="radio" name="danger" value="maybedanger">
+                    <label>Maybe<input  class="storm radio" type="radio" name="danger" value="maybedanger">
                     </label>
                  </div>
         </fieldset> 
@@ -113,12 +115,12 @@
             <legend>
                 Additional Information or Comments
             </legend>
-            <label class="end">Details:<input id="textbox" type="textarea" name="comments" placeholder="This storm ripped the roof off my house!">
+            <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
             </label>
             <label class="end">
-                <input type="submit" value="Send Report">
-            </label>
         </fieldset>
+                <input class="btn" type="submit" value="Send Report">
+            </label>
         </form>
     </main>
     <footer>
