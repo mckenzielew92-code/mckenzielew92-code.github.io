@@ -126,6 +126,7 @@ form fieldset{
     margin-top: 2rem;
     padding-left:25px;
     box-shadow: 5px 5px 10px #cccccc;
+    padding-bottom:2rem;
 }
 form fieldset label{
     display:block;
@@ -177,7 +178,7 @@ div{
      width: 50%;
      transition: background-color .25s;
      box-shadow: 5px 5px 10px #cccccc;
-
+    font-weight: bold;
  }
  form input.btn:hover{
     background-color: rgb(167, 73, 73);
