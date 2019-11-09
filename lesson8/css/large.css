@@ -173,7 +173,7 @@ div{
      font-size:1.15rem;
      color: #F0ebd8;
      border-radius: 6px;
-     width:50%;
+     width: 50%;
      transition: background-color .25s;
  }
  form input.btn:hover{

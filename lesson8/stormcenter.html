@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Preston Page of Weather Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="This is the assignment for week 4 of the weather site project.  This week we are working on the Preston page of the site.">
+    <meta name="description" content="This is a form for the weather site in CIT230">
     <link rel="shortcut icon" href="/images/favicon pw.sb-9a3cbb49-qiDZmI">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
@@ -61,7 +61,7 @@
             <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
             <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
             <label class="info">Email:<input type="email" name="email" placeholder="http://www.someonesemail@email.com" required></label>
-            <label class="info req">*Zip Code:<input class="req" type="number" name="zip" size="5" required></label>
+            <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
         </fieldset>
         <fieldset>
             <legend>
@@ -77,7 +77,7 @@
                     <option value="Tornado">Tornado</option>
                 </datalist>
             </label>
-            <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1"list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">10</span>
             </label>
             <datalist id="marks">
@@ -100,16 +100,14 @@
             </select>
             </label>
              <div>
-            <label class="storm">Are You in Danger?
-                    <label>
+            <label class="storm">Are You in Danger?<br>
                     Yes<input class="storm radio" type="radio" name="danger" value="danger">
                     </label>    
-                    </label>
                     <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
                     </label>
                     <label>Maybe<input  class="storm radio" type="radio" name="danger" value="maybedanger">
                     </label>
-                 </div>
+            </div>
         </fieldset> 
         <fieldset>
             <legend>
@@ -117,8 +115,8 @@
             </legend>
             <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
             </label>
-            <label class="end">
         </fieldset>
+            <label id="submit">
                 <input class="btn" type="submit" value="Send Report">
             </label>
         </form>
