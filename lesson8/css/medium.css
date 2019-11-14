@@ -1,6 +1,6 @@
 @media only screen and (max-width:850px)
 {
-    .navigation li, #forecast-section, #forecast-header, #contact-section img{
+    .navigation li,{
         display: none;
     }
     h1{
@@ -34,6 +34,12 @@
    form input.btn:active{
        background-color: rgb(167, 73, 73);
        box-shadow: 10px 10px 15px grey;
+   }
+   textarea{
+       width:75%;
+   }
+   input, select{
+       width:75%;
    }
    
 }
