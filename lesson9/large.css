@@ -175,4 +175,10 @@ picture{
     text-shadow:2px 2px 4px #0D1321;
     margin-left: 20px;
 }
+main div.towns{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size:.75em;
+}
 }

@@ -29,8 +29,7 @@ for (let i = 0; i < towns.length; i++ ) {
    
     image.setAttribute('src', towns[i].photo);
     image.setAttribute('alt', towns[i].name);
-   }
-  
+    
     card.appendChild(h2);
     card.appendChild(motto);
     card.appendChild(year);
@@ -39,5 +38,9 @@ for (let i = 0; i < towns.length; i++ ) {
     card.appendChild(image);
   
     document.querySelector('div.towns').appendChild(card);
+   }
+   
+  
+    
 }
 });
