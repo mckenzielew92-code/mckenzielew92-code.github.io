@@ -25,12 +25,9 @@ for (let i = 0; i < towns.length; i++ ) {
     motto.textContent = towns[i].motto;
     year.textContent = 'Year Founded: ' + towns[i].yearFounded;
     pop.textContent = 'Population: ' + towns[i].currentPopulation;
-    rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
+    rain.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + 'in.';
    
-    
-
     image.setAttribute('src', towns[i].photo);
-    console.log(towns[i].src);
     image.setAttribute('alt', towns[i].name);
    }
   
