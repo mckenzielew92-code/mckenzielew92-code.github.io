@@ -162,4 +162,17 @@ main footer{
 picture{
     width:100%;
 }
+#storyimg{
+    position: relative;
+
+    
+}
+#storyp{
+    position: absolute;
+    bottom: 160px;
+    width: 30%;
+    color: #fff;
+    text-shadow:2px 2px 4px #0D1321;
+    margin-left: 20px;
+}
 }
