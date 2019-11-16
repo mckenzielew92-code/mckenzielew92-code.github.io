@@ -176,6 +176,14 @@ main div.towns div{
     background-color:rgba(116, 140, 171, .75);
     width: 90%;
 }
+main div.towns div img{
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #3E5C76;
+    width:200px;
+    margin-left:15%;
+    margin-bottom:5px;
+}
 
 @media only screen and (min-width:850px)
 {
