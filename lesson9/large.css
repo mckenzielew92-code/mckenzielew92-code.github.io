@@ -1,0 +1,165 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    width:100%;
+    background-color: #0d1321;
+    color: #F0ebd8;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    background-color: #3E5C76;
+}
+li.active{
+    text-decoration: underline;
+    background-color: #F0ebd8;
+}
+li.active a{
+    color:#3E5C76;
+}
+nav ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav li{
+    padding:5px;
+}
+nav li:active{
+    text-decoration:underline;
+}
+nav li:hover{
+    background-color: #748cab;
+    color: #0D1321;
+}
+nav li:focus{
+    text-decoration: underline;
+    background-color: #F0ebd8;
+    color: #3E5C76;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: #F0ebd8;
+
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: block;
+}
+#header-img{
+    width: 150px;
+}
+#slogan{
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.headings{
+        display:flex;
+        flex-direction: column;
+        line-height: 1%;
+        align-items: center;
+        justify-content: center;
+        padding:5px;
+        margin:10px;
+}
+h1{
+    font-family: "Playfair Display", serif; 
+    font-size: 45px;
+    text-align: center;
+}
+.gal-grid:hover{
+    box-shadow: 7px 8px 5px #cccccc;
+    text-shadow: 2px 2px 2px #cccccc; 
+}
+
+figure img{
+    max-width:200px;
+    height:150px;
+}
+
+figcaption{
+    color: #3E5C76;
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 280px 280px 280px;
+   
+}
+h2{
+    font-family: "Playfair Display", serif; 
+    font-size: 1.3em;  
+}
+h2{    
+    font-family: "Playfair Display", serif; 
+    text-align:center;
+}
+h3{
+    font-family: "Playfair Display", serif; 
+    text-align:center;
+}
+main{
+    background-color: #ffffff;
+    color: #0d1321;
+    padding:10px;
+    max-width: 800px;
+    margin:auto;
+}
+
+#weather-heading{
+   margin:0;
+   text-align: center;
+   padding:5px;
+   text-decoration: underline;
+   color:#F0ebd8;
+   font-size: .85rem;
+}
+
+footer{
+    background-color: #0d1321;
+    color: #F0ebd8;
+    padding:10px;
+    margin:0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+main footer{
+    max-width: 800px;
+}
+@media only screen and (min-width:850px)
+{
+.navigation li:first-child{
+    display: none;
+}
+
+#pancakes{
+    display: none;
+    background-color: #f6d66f;
+    color: #0D1321;
+    padding: 5px;
+    text-align: center;
+    margin:10px 0 10px 0;
+}
+picture{
+    width:100%;
+}
+}
