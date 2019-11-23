@@ -21,13 +21,24 @@ fetch(apiURL)
   fetch(jsonURL)
     .then((response) => response.json())
     .then((jsObject) => {
-    console.log(jsObject);
-    for (let i = 0; i < jsObject.list.length; i++)
+    //console.log(jsObject);
+    for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
 
-        cosole.log(jsObect.list[i].dt_txt);
+        document.getElementById('day1').textContent = (jsObect.list[i].dt_txt);
+        document.getElementById('day2').textContent = (jsObect.list[i].dt_txt);
+        document.getElementById('day3').textContent = (jsObect.list[i].dt_txt);
+        document.getElementById('day4').textContent = (jsObect.list[i].dt_txt);
+        document.getElementById('day5').textContent = (jsObect.list[i].dt_txt);
         
-      
-      }
-
+        
+        document.getElementById('high1').textContent = jsObect.list[i].main.temp.toFixed(0);
+        document.getElementById('high2').textContent = jsObect.list[i].main.temp.toFixed(0);
+        document.getElementById('high3').textContent = jsObect.list[i].main.temp.toFixed(0);
+        document.getElementById('high4').textContent = jsObect.list[i].main.temp.toFixed(0);
+        document.getElementById('high5').textContent = jsObect.list[i].main.temp.toFixed(0);
+        
+        document.getElementById()
+     }
+    }
     });
