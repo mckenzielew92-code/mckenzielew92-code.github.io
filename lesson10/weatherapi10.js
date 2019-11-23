@@ -26,7 +26,7 @@ fetch(apiURL)
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
 
         cosole.log(jsObect.list[i].dt_txt);
-
+        
       
       }
 
