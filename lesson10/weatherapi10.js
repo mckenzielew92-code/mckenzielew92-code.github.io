@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    //console.log(jsObject);
+    console.log(jsObject);
 
     document.getElementById('weather').textContent = jsObject.id.main;
     document.getElementById('high').textContent = jsObject.main.temp;
@@ -21,24 +21,13 @@ fetch(apiURL)
   fetch(jsonURL)
     .then((response) => response.json())
     .then((jsObject) => {
-    //console.log(jsObject);
+    console.log(jsObject);
     for (let i = 0; i < jsObject.list.length; i++)
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
 
-        document.getElementById('day1').textContent = jsObect.list[i].main.temp.toFixed(0);
-        document.getElementById('day2').textContent = jsObect.list[i].main.temp.toFixed(0);
-        document.getElementById('day3').textContent = jsObect.list[i].main.temp.toFixed(0);
-        document.getElementById('day4').textContent = jsObect.list[i].main.temp.toFixed(0);
-        document.getElementById('day5').textContent = jsObect.list[i].main.temp.toFixed(0);
+        cosole.log(jsObect.list[i].dt_txt);
 
+      
+      }
 
-
-
-     }
-    
-      const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-      document.getElementsByClassName('sun-icon').textContent = imagesrc;  // informational specification only
-      document.getElementsByClassName('sun-icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-      document.getElementsByClassName('sun-icon').setAttribute('alt', desc);
-    
     });
