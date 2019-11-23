@@ -4,9 +4,10 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+    var temper = jsObject.main.temp.toFixed(0);
 
     document.getElementById('weather').textContent = jsObject.id.main;
-    document.getElementById('high').textContent = jsObject.main.temp;
+    document.getElementById('high').textContent = temper;
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
 
@@ -21,7 +22,8 @@ fetch(apiURL)
   fetch(jsonURL)
     .then((response) => response.json())
     .then((jsObject) => {
-    //console.log(jsObject);
+    console.log(jsObject);
+
     for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
 
@@ -30,9 +32,11 @@ fetch(apiURL)
         document.getElementById('day3').textContent = (jsObect.list[i].dt_txt);
         document.getElementById('day4').textContent = (jsObect.list[i].dt_txt);
         document.getElementById('day5').textContent = (jsObect.list[i].dt_txt);
+
+
+        var high1 = jsObect.list[i].main.temp
         
-        
-        document.getElementById('high1').textContent = jsObect.list[i].main.temp.toFixed(0);
+        document.getElementById('high1').textContent = high1.toFixed(0);
         document.getElementById('high2').textContent = jsObect.list[i].main.temp.toFixed(0);
         document.getElementById('high3').textContent = jsObect.list[i].main.temp.toFixed(0);
         document.getElementById('high4').textContent = jsObect.list[i].main.temp.toFixed(0);
