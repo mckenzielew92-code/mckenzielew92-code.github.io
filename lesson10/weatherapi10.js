@@ -24,7 +24,7 @@ fetch(jsonURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    
+    var day = "";
     let count = 0;
     for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
@@ -38,9 +38,38 @@ fetch(jsonURL)
         /*Day of Week*/
 
         let myday = 'day' + count;
-        document.getElementById(myday).textContent = (jsObject.list[i].dt_txt);
+
+        /*Day of Week*/
+        var d = new Date();
+        var n = d.getDay();
+        n = n + count - 1;
+        if (n > 6){
+          (n = n-7);
+        }
+
+
+
+        if (n == 0) {
+          day = "Sun";
+        } else if (n == 1) {
+          day = "Mon";
+        } else if (n == 2) {
+          day = "Tues";
+        } else if (n == 3) {
+          day = "Wed";
+        } else if (n == 4) {
+          day = "Thurs";
+        } else if (n == 5) {
+          day = "Fri";
+        } else if (n == 6) {
+          day = "Sat";
+        }
+
+        document.getElementById(myday).textContent = day;
+
         
 
       }
+
     }
   });
