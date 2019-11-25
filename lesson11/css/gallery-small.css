@@ -1,0 +1,7 @@
+@media only screen and (max-width:550px)
+{
+    .grid-container{
+        display:block;
+        text-align: center;
+       }
+}

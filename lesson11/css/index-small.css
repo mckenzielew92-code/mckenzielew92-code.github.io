@@ -1,0 +1,11 @@
+@media only screen and (max-width: 550px){
+main div.towns{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        grid-gap: 5%;
+        font-size:.75em;
+        padding: 5px;
+    }
+
+}
