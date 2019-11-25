@@ -3,6 +3,8 @@
 }
 body{
     margin:auto;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 header{
     width:100%;
@@ -84,15 +86,20 @@ nav ul li a{
     color:#1D2D44;
 }
 h1{
+    font-family: "Playfair Display", serif; 
     font-size: 45px;
+    text-align: center;
 }
 h2{
+    font-family: "Playfair Display", serif; 
     font-size: 1.3em;  
 }
 h2{
+    font-family: "Playfair Display", serif; 
     text-align:center;
 }
 h3{
+    font-family: "Playfair Display", serif; 
     text-align:center;
 }
 main section{
@@ -110,7 +117,6 @@ main{
     padding:10px;
     max-width: 800px;
     margin:auto;
-    font-family: 'Noto Sans', sans-serif;
 }
 #div-one{
     position: relative;
