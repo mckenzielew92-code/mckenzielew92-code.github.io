@@ -3,6 +3,7 @@
     .navigation li, #forecast-section, #forecast-header, #contact-section img{
         display: none;
     }
+   
     h1{
         font-size: 25px;
     }

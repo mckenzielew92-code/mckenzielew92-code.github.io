@@ -29,9 +29,10 @@ fetch(jsonURL)
     for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
         count++;
-    /*Temp*/
-        var temper = jsObject.list[i].main.temp.toFixed(0);
 
+    /*Temp*/
+    
+        var temper = jsObject.list[i].main.temp.toFixed(0);
         let myhigh = 'high' + count;
         document.getElementById(myhigh).textContent = temper;
 
@@ -44,9 +45,6 @@ fetch(jsonURL)
         if (n > 6){
           (n = n-7);
         }
-
-
-
         if (n == 0) {
           day = "Sun";
         } else if (n == 1) {
@@ -65,9 +63,6 @@ fetch(jsonURL)
 
         document.getElementById(myday).textContent = day;
 
-        
-
       }
-
     }
   });
