@@ -189,7 +189,9 @@ div{
  form input.radio{
      height: 1rem;
  }
-
+div label.storm{
+    display: inline-block;
+}
 @media only screen and (min-width:850px)
 {
 .navigation li:first-child{

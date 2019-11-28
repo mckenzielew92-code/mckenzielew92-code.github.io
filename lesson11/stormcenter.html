@@ -58,7 +58,7 @@
             <legend>
                 Who's Reporting?
             </legend>
-            <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z].{6,}"></label>
+            <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z ]{5,}"></label>
             <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
             <label class="info">Email:<input type="email" name="email" placeholder="http://www.someonesemail@email.com" required></label>
             <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
@@ -93,7 +93,7 @@
                 <option value="10"></option>
             </datalist>
             <label class="storm"> Storm Region:<select name="region">
-                <option disabled>Select Region</option>
+                <option selected disabled>Select Region</option>
                 <option value="Fish Haven">Fish Haven</option>
                 <option value="Preston">Preston</option>
                 <option value="Soda Springs">Soda Springs</option>
@@ -101,6 +101,7 @@
             </label>
              <div>
             <label class="storm">Are You in Danger?<br>
+                <div>
                     Yes<input class="storm radio" type="radio" name="danger" value="danger">
                     </label>    
                     <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
