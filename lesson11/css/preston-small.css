@@ -1,6 +1,13 @@
-@media only screen and (max-width:450px)
+@media only screen and (max-width:550px)
 {
 #weather-summary{
     max-width: 150px;
+    font-size: 8px;
+}
+}
+@media only screen and (max-width:500px)
+{
+#weather-summary{
+    font-size: 7px;
 }
 }
