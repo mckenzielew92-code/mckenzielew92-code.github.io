@@ -55,8 +55,111 @@
         <h2>
             Soda Springs
         </h2>
-        <main>
-
+            <div id="div-one">
+                <section id="hero-section">
+                    <picture id="hero-pic">
+                        <img id="hero-img" src="../images/hero-weather-default.jpg" alt="landscape image with sun beaming"
+                            srcset="../images/hero-weather-large.jpg 1025w, ../images/hero-weather-medium.jpg 800w, ../images/hero-weather-small.jpg 414w"
+                            sizes="(min-width:1024px) 900px, 100vw">
+                        </picture> 
+                </section>
+                <div id="weather-summary">
+                    <h5 id="weather-heading">
+                        Weather Summary:
+                    </h5>
+                    <p>
+                        Weather Now: <span id="weather"></span>
+                    </p>
+                    <p>
+                        High: <span id="high"></span>&#176;
+                    </p>
+                    <p>
+                        Humidity: <span id="humidity"></span>&#37;
+                    </p>
+                    <p>
+                        Wind Speed: <span id="speed"></span> mph
+                    </p>
+                    <p>
+                        Wind-Chill: <span id="windchill"></span>&#176;F
+                    </p>
+                </div>
+                </div>
+            <h3 id="forecast-header">
+                5 Day Forecast
+            </h3>
+            <section id="forecast-section">
+                    <div class="forecast">
+                        <h4 class="forcast-days"><span id="day1"></span></h4>
+                        <div  class="high">High: <span id="high1"></span>&#176;
+                        </div>
+                        <div>
+                            <img  id="sun-icon1" src="" alt="">
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <h4 class="forcast-days"><span id="day2"></span></h4>
+                        <div class="high">High: <span id="high2"></span>&#176;
+                        </div>
+                        <div>
+                            <img  id="sun-icon2"src="" alt="">
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <h4 class="forcast-days"><span id="day3"></span></h4>
+                        <div class="high">High: <span id="high3"></span>&#176;
+                        </div>
+                        <div>
+                            <img  id="sun-icon3"src="" alt="">
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <h4 class="forcast-days"><span id="day4"></span></h4>
+                        <div class="high">High: <span id="high4"></span>&#176;
+                        </div>
+                        <div>
+                            <img  id="sun-icon4"src="" alt="">
+                        </div>
+                    </div>
+                    <div class="forecast">
+                        <h4 class="forcast-days"><span id="day5"></span></h4> 
+                        <div class="high">High: <span id="high5"></span>&#176;
+                        </div>
+                        <div>
+                            <img id="sun-icon5" src="" alt="">               
+                        </div>
+                </div>
+            </section>
+            <h3>
+                Article of the Day
+            </h3>
+            <section id="preston-article">
+                <img id="food-img" src="../images/food.jpg" alt="picture of food">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam magnam id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus quidem ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet dolor laborum modi quam alias voluptatibus, a doloribus! 
+                </p>
+                
+            </section>
+            <h3>
+                Contact Us
+            </h3>
+            <section id="contact-section">
+                <img id="map-img" src="../images/adventure-city-country-240834.jpg" alt="map image">
+                
+                <h4>
+                    Predictable Weather
+                </h4>
+                <p>
+                    567 N. 300 E.<br>
+                    Soda Springs ID. 83263
+                </p>
+                <p>
+                    888-999-0000
+                </p>
+                <p>
+                    predictableweather@email.com
+                </p>
+            </section>
+            
         </main>
         <footer>
             <p>
@@ -70,6 +173,7 @@
         <script src="js/todaysdate.js"></script>
         <script src="js/date.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/soda-weatherapi.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/webfontload.js"></script>
         <script src="js/lazyload.js"></script>    
