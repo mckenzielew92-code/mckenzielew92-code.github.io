@@ -11,7 +11,7 @@ const towns = jsonObject["towns"];
 
 for (let i = 0; i < towns.length; i++ ) {
 
-    if (towns[i].name== "Preston"){
+    if (towns[i].name== "Soda Springs"){
 
     let card = document.createElement("article");
     let fillCard = document.createElement("section");
@@ -25,10 +25,7 @@ for (let i = 0; i < towns.length; i++ ) {
     fillCard.appendChild(events);
     card.appendChild(fillCard);
     
-    document.querySelector('div.preston-events').appendChild(card);
+    document.querySelector('div.soda-springs-events').appendChild(card);
    }
 }
 });
-   
-
-
