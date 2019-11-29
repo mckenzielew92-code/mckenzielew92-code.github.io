@@ -84,15 +84,16 @@ h1{
 }
 h2{
     font-family: "Playfair Display", serif; 
-    font-size: 1.3em;  
-}
-h2{    
-    font-family: "Playfair Display", serif; 
-    text-align:center;
+    font-size: 1.5em; 
+    text-align:center; 
 }
 h3{
     font-family: "Playfair Display", serif; 
     text-align:center;
+    font-size: 1.25em;
+}
+h4{
+    font-size: 1.15em;
 }
 main{
     color: #0d1321;
@@ -137,29 +138,32 @@ div#story{
     text-shadow:4px 4px 6px #0D1321;
     margin-left: 20px;
 }
-main article{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5%;
-    font-size:.75em;
+main div.towns{
+    display:flex;
     padding: 5px;
 }
-main div.towns div{
+main div.towns article{
     border: 1px solid #0D1321;
     border-radius: 2px;
     box-shadow: 5px 5px 10px #748cab;
-    margin-bottom: 40px;
-    padding: 5px;
+    margin: 10px;
+    padding: 25px;
     background-color:rgba(116, 140, 171, .75);
-    width: 90%;
+    width: 30%;
 }
-main div.towns div img{
+main article img{
     border: 1px solid #0D1321;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #3E5C76;
-    width:80%;
+    width:75%;
     margin-left: 10%;
+}
+h4{
+    font-style: italic;
+    text-align: center;
+}
+main div.towns h2{
+    font-weight: bold;
 }
 
 @media only screen and (min-width:1000px)

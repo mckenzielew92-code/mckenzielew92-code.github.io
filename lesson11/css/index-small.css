@@ -1,14 +1,19 @@
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 600px){
 main div.towns{
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 3fr;
-        grid-gap: 5%;
-        font-size:.75em;
         padding: 5px;
     }
-    #storyp{
-        font-size: 14px;
-    }
+main div.towns article.town-borders{
+    flex-direction: column;
+}
+main div.towns article img{
+    width: 50%;
+    margin: 10 auto;
+}
+main div.towns article section p{
+    margin-left: 45px;
+}
+ #storyp{
+    font-size: 14px;
+}
 
 }

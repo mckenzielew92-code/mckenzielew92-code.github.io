@@ -24,16 +24,20 @@
     main div.towns{
     display:flex;
     flex-direction:column;
+    margin-right: 25px;
 }
-    main div.towns div{
+    main div.towns article{
         display:flex;
         flex-direction:row;
+        width: 100%;
     }
-    main div.towns div:nth-child(odd){
+    main div.towns article:nth-child(even){
         flex-direction: row-reverse;
     }
-    main div.towns div img{
-        width: 40%;
+    
+    main article img{
+        width: 30%;
+        margin: 0 auto;
     }
 
 
