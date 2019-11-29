@@ -16,7 +16,7 @@ for (let i = 0; i < towns.length; i++ ) {
     let card = document.createElement("article");
     let fillCard = document.createElement("section");
     let heading = document.createElement("h2");
-    let events = document.createElement("h3");
+    let events = document.createElement("h4");
    
     heading.textContent = 'Local Events Include:';
     events.textContent = towns[i].events;
