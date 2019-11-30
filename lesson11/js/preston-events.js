@@ -9,24 +9,35 @@ fetch(requestURL)
 
 const towns = jsonObject["towns"];
 
+
 for (let i = 0; i < towns.length; i++ ) {
+//I tried to do if (towns[i].name == where) bleow, that did not work...
+    if (towns[i].name == "Preston"){
 
-    if (towns[i].name== "Preston"){
+    const events = towns[i].events;
 
+    let unOrdered = document.createElement('ul');
+
+    for (let e = 0; e < events.length; e++){
+        let list = document.createElement('li');
+        list.textContent = events[e];
+        unOrdered.appendChild(list);}
+ 
     let card = document.createElement("article");
     let fillCard = document.createElement("section");
     let heading = document.createElement("h2");
-    let events = document.createElement("h4");
+    //let events = document.createElement("h4");
    
-    heading.textContent = 'Local Events Include:';
-    events.textContent = towns[i].events;
 
     fillCard.appendChild(heading);
-    fillCard.appendChild(events);
+    //fillCard.appendChild(events);
+    fillCard.appendChild(unOrdered);
     card.appendChild(fillCard);
     
     document.querySelector('div.preston-events').appendChild(card);
-   }
+  
+
+}
 }
 });
    
