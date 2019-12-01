@@ -103,13 +103,15 @@ h3{
     text-align:center;
 }
 main section{
-    border:1px solid #0d1321;
-    background-color: rgba(240,235,215,0.5);
-    border-radius: 6px;
+    border:1px solid #3E5C76;
+    background-color:rgba(116, 140, 171, .75);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #748cab;
     color:#1D2D44;
     padding: 5px;
     justify-content: center;
     margin:20px;
+    line-height: 1.5em;
 }
 main{
     background-color: #ffffff;
@@ -158,11 +160,12 @@ main{
     flex-direction: row;
     border-radius: 6px;
 }
-#food-img{
-    height: 10em;
-    float: left;
-    margin: 3%;
-}
+
+#lake-img{
+    float:right;
+    width:10em;
+    margin:3.25%;
+}  
 footer{
     background-color: #0d1321;
     color: #F0ebd8;
@@ -177,6 +180,11 @@ main footer{
 #weather{
     text-transform: capitalize;
 }
+#map-img{
+    float:right;
+    width:10em;
+    margin:3.25%;
+}  
 @media only screen and (min-width:1000px)
 {
 .navigation li:first-child{
@@ -196,11 +204,7 @@ div{
     display: flex;
     justify-content: center;
 }
-#map-img{
-    float:right;
-    width:10em;
-    margin:3.25%;
-}   
+ 
 #pancakes{
     display: none;
     background-color: #f6d66f;

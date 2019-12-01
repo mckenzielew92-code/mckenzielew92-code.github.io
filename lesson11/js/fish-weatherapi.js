@@ -34,6 +34,7 @@ fetch(jsonURL)
 
         let myhigh = 'high' + count;
         document.getElementById(myhigh).textContent = temper;
+        
 
         /*Day of Week*/
 

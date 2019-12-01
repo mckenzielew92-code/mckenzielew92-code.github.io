@@ -103,13 +103,15 @@ h3{
     text-align:center;
 }
 main section{
-    border:1px solid #0d1321;
-    background-color: rgba(240,235,215,0.5);
-    border-radius: 6px;
+    border:1px solid #3E5C76;
+    background-color:rgba(116, 140, 171, .75);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #748cab;
     color:#1D2D44;
     padding: 5px;
     justify-content: center;
     margin:20px;
+    line-height: 1.5em;
 }
 main{
     background-color: #ffffff;
@@ -158,10 +160,11 @@ main{
     flex-direction: row;
     border-radius: 6px;
 }
-#food-img{
+#cow-img{
     height: 10em;
     float: left;
-    margin: 3%;
+    margin: 10px; 
+    margin-right: 25px;   
 }
 footer{
     background-color: #0d1321;
