@@ -159,6 +159,7 @@ main{
     display:flex;
     flex-direction: row;
     border-radius: 6px;
+    justify-content: space-evenly;
 }
 #cow-img{
     height: 10em;
