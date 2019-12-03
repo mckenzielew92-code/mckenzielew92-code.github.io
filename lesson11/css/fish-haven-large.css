@@ -163,8 +163,8 @@ main{
 }
 
 #lake-img{
-    float:right;
-    width:10em;
+    float:left;
+    height:10em;
     margin:3.25%;
 }  
 footer{

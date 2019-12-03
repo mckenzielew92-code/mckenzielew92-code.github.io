@@ -165,6 +165,9 @@ h4{
 main div.towns h2{
     font-weight: bold;
 }
+#wireframe{
+   width: 80%;
+}
 
 @media only screen and (min-width:1000px)
 {
@@ -180,5 +183,6 @@ main div.towns h2{
     text-align: center;
     margin:10px 0 10px 0;
 }
+
 
 }

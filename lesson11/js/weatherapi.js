@@ -31,9 +31,19 @@ fetch(jsonURL)
         count++;
     /*Temp*/
         var temper = jsObject.list[i].main.temp.toFixed(0);
-
+       
         let myhigh = 'high' + count;
         document.getElementById(myhigh).textContent = temper;
+
+        /*Icon*/
+
+         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png'; // note the concatenation
+        const desc = jsObject.list[0].description; // note how we reference the weather array
+
+        let icon = 'sun-icon' + count;
+        document.getElementById(icon).textContent = imagesrc;
+        document.getElementById(icon).setAttribute('alt',desc);
+        document.getElementById(icon).setAttribute('src', imagesrc);
 
         /*Day of Week*/
 
