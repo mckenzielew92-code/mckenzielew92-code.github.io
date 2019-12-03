@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Preston Page of Weather Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is a form for the weather site in CIT230">
-    <link rel="shortcut icon" href="/images/favicon pw.sb-9a3cbb49-qiDZmI">
+    <link rel="shortcut icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans%7cPlayfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/storm-center-large.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/storm-center-medium.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/storm-center-small.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/storm-center-medium.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/storm-center-small.css" />
 </head>
+
 <body>
     <header>
-        <img id="header-img" src="../images/pw-logo.png" alt="pitcure of Predictable Weather's logo."/>
+        <img id="header-img" src="../images/pw-logo.png" alt="pitcure of Predictable Weather's logo." />
         <section class="headings">
             <h1>
-                Predictable Weather 
+                Predictable Weather
             </h1>
             <div id="slogan">
                 Where the weather is always predictable.
             </div>
-        </section> 
+        </section>
     </header>
     <nav>
         <ul class="navigation">
@@ -38,7 +40,7 @@
             </li>
             <li>
                 <a href="sodasprings.html">Soda Springs</a>
-            </li> 
+            </li>
             <li>
                 <a href="fishhaven.html">Fish Haven</a>
             </li>
@@ -54,69 +56,72 @@
     <main>
         <h2>Storm Center Weather Report</h2>
         <form method="get" action="thanks.html">
-        <fieldset>
-            <legend>
-                Who's Reporting?
-            </legend>
-            <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required pattern="[A-Za-z ]{5,}"></label>
-            <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
-            <label class="info">Email:<input type="email" name="email" placeholder="http://www.someonesemail@email.com" required></label>
-            <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
-        </fieldset>
-        <fieldset>
-            <legend>
-                Report Storm Information
-            </legend>
-            <label class="storm">Date:<input type="date" name="date"></label>
-            <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
-                <datalist id="storms">
-                    <option value="Flash Flood">Flash Flood</option>
-                    <option value="Hail">Hail</option>
-                    <option value="Hurricaine">Hurricaine</option>
-                    <option value="Thunderstorm">Thunderstorm</option>
-                    <option value="Tornado">Tornado</option>
+            <fieldset>
+                <legend>
+                    Who's Reporting?
+                </legend>
+                <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required
+                        pattern="[A-Za-z ]{5,}"></label>
+                <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
+                <label class="info">Email:<input type="email" name="email"
+                        placeholder="http://www.someonesemail@email.com" required></label>
+                <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Report Storm Information
+                </legend>
+                <label class="storm">Date:<input type="date" name="date"></label>
+                <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                    <datalist id="storms">
+                        <option value="Flash Flood">Flash Flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricaine">Hurricaine</option>
+                        <option value="Thunderstorm">Thunderstorm</option>
+                        <option value="Tornado">Tornado</option>
+                    </datalist>
+                </label>
+                <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1"
+                        list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">10</span>
+                </label>
+                <datalist id="marks">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
                 </datalist>
-            </label>
-            <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-            <span id="ratingvalue">10</span>
-            </label>
-            <datalist id="marks">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-                <option value="10"></option>
-            </datalist>
-            <label class="storm"> Storm Region:<select name="region">
-                <option selected disabled>Select Region</option>
-                <option value="Fish Haven">Fish Haven</option>
-                <option value="Preston">Preston</option>
-                <option value="Soda Springs">Soda Springs</option>
-            </select>
-            </label>
-             <div>
-            <label class="storm">Are You in Danger?<br>
+                <label class="storm"> Storm Region:<select name="region">
+                        <option selected disabled>Select Region</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                    </select>
+                </label>
                 <div>
-                    Yes<input class="storm radio" type="radio" name="danger" value="danger">
-                    </label>    
-                    <label>No<input  class="storm radio" type="radio" name="danger" value="nodanger">
+                    <label class="storm">Are You in Danger?<br>
+
+                        Yes<input class="storm radio" type="radio" name="danger" value="danger">
                     </label>
-                    <label>Maybe<input  class="storm radio" type="radio" name="danger" value="maybedanger">
+                    <label>No<input class="storm radio" type="radio" name="danger" value="nodanger">
                     </label>
-            </div>
-        </fieldset> 
-        <fieldset>
-            <legend>
-                Additional Information or Comments
-            </legend>
-            <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
-            </label>
-        </fieldset>
+                    <label>Maybe<input class="storm radio" type="radio" name="danger" value="maybedanger">
+                    </label>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Additional Information or Comments
+                </legend>
+                <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
+                </label>
+            </fieldset>
             <label id="submit">
                 <input class="btn" type="submit" value="Send Report">
             </label>
@@ -124,7 +129,8 @@
     </main>
     <footer>
         <p>
-            &copy; <span id="current-year"></span> | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+            &copy; <span id="current-year"></span> | McKenzie Lewis | Utah | <a href="https://www.byui.edu/online">BYU
+                Online Learning</a>
         </p>
         <p>
             Current Date:<span id="todaysdate"></span>
@@ -135,7 +141,8 @@
     <script src="js/todaysdate.js"></script>
     <script src="js/currentyear.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontload.js"></script>   
-    <script src="js/range.js"></script>   
-    </body>
-    </html>
+    <script src="js/webfontload.js"></script>
+    <script src="js/range.js"></script>
+</body>
+
+</html>
