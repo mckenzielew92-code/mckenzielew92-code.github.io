@@ -161,11 +161,17 @@ main{
 
 }
 
+
+/*!I have attempted float right, and flex on this picture to get the 
+text to wrap around the picture and nothing is working which is so weird
+because the other pages wrap just fine around the image.*/
 #lake-img{
     float:left;
     height:10em;
     margin:3.25%;
 }  
+
+
 footer{
     background-color: #0d1321;
     color: #F0ebd8;
