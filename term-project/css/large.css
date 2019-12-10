@@ -1,0 +1,109 @@
+/*********GENERAL STYLES******************/
+
+body{
+    font-family: 'Baskervville', serif;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Dancing Script', cursive;
+}
+/***************HEADER********************/
+header{
+    margin: 20px 0 30px 0;
+    line-height: 1.75em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+header div#site-title{
+    margin: 10px;
+}
+header h1{
+    font-family: 'Baskervville', serif;
+    border-bottom: solid 3px #ff6b6b;
+    margin-bottom:-5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header h2{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: .325rem;
+    line-height:0;
+    padding-left: 12px;
+}
+img#logo{
+    width: 100px;
+}
+
+/*************NAVIGATION****************/
+nav{
+    border-bottom: solid 2px #1a535c;
+    text-transform: uppercase;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1a535c
+}
+nav ul li#active{
+    background-color: #1a535c;
+}
+nav ul li#active a{
+    color:#fff;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 8px;
+    border: hidden;
+    border-radius: 5px;
+    margin: 3px;
+}
+nav ul li a:hover{
+    border: solid 5px #ffe66d;
+    padding: 3px;
+}
+/*************MAIN****************/
+main{
+    margin: 0 auto;
+    max-width: 800px;
+}
+img#temple-home{
+    width:100%;
+    position: relative;
+}
+main div#reserve-button{
+    border:hidden;
+    border-radius: 4px;
+    background-color: white;
+    opactiy: .5;
+    position: absolute;
+    bottom: 10%;
+    padding: 20px;
+    margin: 5%;
+    box-shadow: 2px 2px 10px #514F4F;
+}
+main div#reserve-button a{
+    color: #ff6b6b;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+main div#reserve-button a:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+/*************FOOTER****************/
+footer{
+border-top: solid 2px #1a535c;
+color: #1a535c;
+font-size: 1.2em;
+text-align: center;
+margin: 20px 0;
+padding:5px;
+}

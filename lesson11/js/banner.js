@@ -7,3 +7,5 @@ function pancakeDay(){
     }
     }
     pancakeDay();
+
+    document.querySelector('meta[name=description]').setAttribute('content', document.querySelector('meta[name=description]').getAttribute('content') + ' banner.js');

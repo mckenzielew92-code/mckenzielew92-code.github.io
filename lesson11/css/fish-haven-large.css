@@ -170,7 +170,9 @@ because the other pages wrap just fine around the image.*/
     height:10em;
     margin:3.25%;
 }  
-
+section#fish-article{
+    display: flex;
+}
 
 footer{
     background-color: #0d1321;
