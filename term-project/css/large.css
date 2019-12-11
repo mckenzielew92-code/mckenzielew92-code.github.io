@@ -146,7 +146,9 @@ img#newport-temple-img{
 figcaption{
     padding-left: 15px;
 }
-
+p#newport-p{
+    margin-top:-10px;
+}
 /*************FOOTER****************/
 footer{
 border-top: solid 2px #1a535c;
