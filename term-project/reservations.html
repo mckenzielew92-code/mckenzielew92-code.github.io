@@ -27,15 +27,71 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="temples.html">Temples</a></li>
-            <li><a  id="active" href="#">Reservations</a></li>
+            <li id="active"><a href="#">Reservations</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-
+        <h2>Fill Out the Form Below to Reserve a Stay at The Temple Suites Inn</h2>
+        <form method="get" action="requestcomplete.html">
+            <fieldset>
+                <legend>
+                    When and Where?
+                </legend>
+                <label><span>*</span>Location: <select class="req" name="where" required></label>
+                <option selected disabled>Select Temple Location</option>
+                <option value="Fresno California Temple">Fresno California Temple</option>
+                <option value="Los Angeles Temple">Los Angeles Temple</option>
+                <option value="Newport Beach California Temple">Newport Beach California Temple</option>
+                <option value="Oakland California Temple">Oakland California Temple</option>
+                <option value="Redland California Temple">Redlands California Temple</option>
+                <option value="Sacramento California Temple">Sacramento California Temple</option>
+                <option value="San Diego California Temple">San Diego California Temple</option>
+                </select>
+                </label>
+                <label><span>*</span>Date:<input class="req" type="date" name="date" required></label>
+                <label><span>*</span>Number of Rooms: <select class="req" name="number-of-rooms" required>
+                        <option selected disabled>Select Number</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </label>
+                <label><span>*</span>Room Type: <select class="req" name="room type" required></label>
+                <option selected disabled>Select Room</option>
+                <option value="BYU Room">BYU Room</option>
+                <option value="Honeymoon Suite">Honeymoon Suite</option>
+                <option value="Missionary Room">Missionary Room</option>
+                <option value="Ocean Room">Ocean Room</option>
+                <option value="Pioneer Room">Pioneer Room</option>
+                <option value="Temple View Room">Temple View Room</option>
+                </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Your Information
+                </legend>
+                <label><span>*</span>First & Last Name: <input class="req" type="text" name="firstlastname" required
+                        pattern="[A-Za-z ]{4,}"></label>
+                <label>Phone Number: <input type="tel" name="phone"placeholder="xxx-xxx-xxxx"></label>
+                <label><span>*</span>Email: <input class="req" type="email" name="email" placeholder="https://www.youremail@email.com"
+                        required></label>
+                <label>Home State/Country: <input type="text" name="homelocation" pattern="[A-Za-z {30,}"></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Special Accommodations/Comments
+                </legend>
+                <label id="comments">Details:<textarea name="comments" rows="10" cols="75"></textarea></label>
+            </fieldset>
+            <label id="submit">
+                <input id="btn" type="submit" value="Complete Request">
+            </label>
+        </form>
     </main>
     <footer>
-            &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project
+        &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project
     </footer>
     <script src="script/script.js"></script>
 
