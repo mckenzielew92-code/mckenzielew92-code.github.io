@@ -78,6 +78,12 @@ nav ul li a:hover{
     border: solid 5px #ffe66d;
     padding: 3px;
 }
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: block;
+}
 /*************MAIN****************/
 main{
     margin: 0 auto;
@@ -107,8 +113,7 @@ img#temple-home{
 div#reserve-button{
     border:hidden;
     border-radius: 4px;
-    background-color: white;
-    opacity: .85;
+    background-color:rgba(255, 255, 255, .85);
     position: absolute;
     bottom: 10%;
     padding: 20px;
@@ -120,9 +125,11 @@ div#reserve-button a{
     text-transform: uppercase;
     font-size: 1.25em;
 }
+
 div#reserve-button:hover{
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 20px #514F4F;
+ 
 }
 p#number{
     font-size: 1.5rem;
@@ -204,4 +211,10 @@ font-size: 1.2em;
 text-align: center;
 margin: 20px 0;
 padding:5px;
+}
+
+@media only screen and (min-width:900px) {
+    .navigation li:first-child{
+        display:none;
+    }
 }
