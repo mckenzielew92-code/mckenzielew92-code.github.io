@@ -1,0 +1,81 @@
+{
+    "temples": [{
+        "name": "Fresno California Temple",
+        "address": "6290 N Valentine Ave/nFresno CA 93711/nUnited States",
+        "phone": "(1) 559-437-9451",
+        "email": "Visit: https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng to send an email to the Fresno California Temple.",
+        "services": "No clothing rental available/nNo cafeteria available/nNo patron housing available/nNo distribution center nearby",
+        "sessionschedule": "8:00 AM/nWalk-ins and Appointments - English/n9:30 AM/nWalk-ins and Appointments - English/n11:30 AM/nWalk-ins and Appointments - English/n6:00 PM/nWalk-ins and Appointments - English/n7:30 PM/nWalk-ins and Appointments - English",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019/nWednesday, 25 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nMonday, 23 March 2020 - Monday, 6 April 2020/nSaturday, 4 July 2020/nMonday, 28 September 2020 - Monday, 12 October 2020/nWednesday, 25 November 2020 - Thursday, 26 November 2020/nThursday, 24 December 2020/nFriday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fresno-california/400x250/fresno-temple-lds-125810-wallpaper.jpg"
+    },
+    {
+        "name":"Los Angeles California Temple",
+        "address":"10777 Santa Monica Blvd/nLos Angeles CA 90025-4718/nUnited States",
+        "phone":"(1) 310-474-5569",
+        "email":"Please visit:https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple?lang=eng to send and email to the Los Angeles California Temple.",
+        "services":"Clothing rental available/nCafeteria available/nPatron housing available/nDistribution center nearby",
+        "sessionschedule":"6:45 AM/nWalk-ins and Appointments - English/n8:00 AM/nWalk-ins and Appointments - English/n9:15 AM/nWalk-ins and Appointments - English/n10:30 AM/nWalk-ins and Appointments - English/n11:45 AM/nWalk-ins and Appointments - English/n1:00 PM/nWalk-ins and Appointments - English/n2:15 PM/nWalk-ins and Appointments - English/n3:30 PM/nWalk-ins and Appointments - English/n5:00 PM/nWalk-ins and Appointments - English/n6:15 PM/nWalk-ins and Appointments - English/n7:30 PM/nWalk-ins and Appointments - English",
+        "ordinanceschedule":"Please call for information regarding other ordinances.",
+        "templeclosures":"2019/nTuesday, 24 December 2019 - Thursday, 26 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nMonday, 17 February 2020 - Monday, 2 March 2020/nSaturday, 4 April 2020/nSaturday, 4 July 2020/nMonday, 6 July 2020 - Monday, 20 July 2020/nSaturday, 3 October 2020/nFriday, 27 November 2020 (Limited Hours)/nThursday, 24 December 2020 - Friday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/400x250/los-angeles-california-temple-1079458-wallpaper.jpg"
+    },
+    {
+        "name": "Newport Beach California Temple",
+        "address": "2300 Bonita Canyon Dr/nNewport Beach CA 92660-9118/nUnited States",
+        "phone": "(1) 949-644-1820",
+        "email": "Please visit:https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng to email the Newport Beach California Temple.",
+        "services": "No clothing rental available/nNo cafeteria available/n No patron housing available/nNo distribution center nearby",
+        "sessionschedule": "7:00 AM/nWalk-ins Only/n 8:30 AM/nWalk-ins Only/n10:00 AM/nWalk-ins Only/n12:00 PM/nWalk-ins Only/n1:30 PM/nWalk-ins Only/n3:00 PM/nWalk-ins Only/n5:00 PM/nWalk-ins Only/n6:30 PM/nWalk-ins Only/n8:00 PM/nWalk-ins Only",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019/nWednesday, 25 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nMonday, 3 February 2020 - Monday, 17 February 2020/nSaturday, 4 April 2020/nSaturday, 4 July 2020/nMonday, 27 July 2020 - Monday, 10 August 2020/nSaturday, 3 October 2020/nWednesday, 25 November 2020/nThursday, 26 November 2020/nThursday, 24 December 2020/nFriday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/newport-beach-california/400x250/newport-beach-california-temple-1169298-wallpaper.jpg"
+    },
+    {
+    "name": "Oakland California Temple",
+        "address": "4770 Lincoln Ave/nOakland CA 94602-2535/nUnited States",
+        "phone": "(1) 510-531-3200",
+        "email": "Please visit:https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng to email the Oakland California Temple.",
+        "services": "Clothing rental available/nCafeteria available/nPatron housing available/nDistribution center nearby",
+        "sessionschedule": "7:00 AM/nWalk-ins and Appointments/n8:00 AM/nWalk-ins and Appointments/n9:00 AM/nWalk-ins and Appointments/n10:00 AM/nWalk-ins and Appointments/n11:00 AM/nWalk-ins and Appointments/n12:00 PM/nWalk-ins and Appointments/n1:00 PM/nWalk-ins and Appointments/n2:00 PM/nWalk-ins and Appointments/n3:00 PM/nWalk-ins and Appointments/n4:00 PM/nWalk-ins and Appointments/n5:00 PM/nWalk-ins and Appointments/n6:00 PM/nWalk-ins and Appointments/n7:00 PM/nWalk-ins and Appointments/n8:00 PM/nWalk-ins and Appointments",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019/nWednesday, 25 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nMonday, 9 March 2020 - Monday, 23 March 2020/nSaturday, 4 April 2020/nSaturday, 4 July 2020/nMonday, 14 September 2020 - Monday, 28 September 2020/nSaturday, 3 October 2020/nWednesday, 25 November 2020 (Limited Hours)/nThursday, 26 November 2020/nThursday, 24 December 2020/nFriday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/oakland-california/400x250/06-Oakland-Temple-Exterior-2236259.jpg"
+    },
+    {
+    "name": "Redlands California Temple",
+        "address": "1761 Fifth Ave/nRedlands CA 92374-5503/nUnited States",
+        "phone": "(1) 909-389-7369",
+        "email": "Please visit:https://www.churchofjesuschrist.org/temples/details/redlands-california-temple?lang=eng to email the Redlands California Temple.",
+        "services": "No clothing rental available/nNo cafeteria available/nNo patron housing available/nDistribution center nearby",
+        "sessionschedule": "7:00 AM/nAppointments Only/n8:30 AM/nAppointments Only/n10:00 AM/nAppointments Only/n12:00 PM/nAppointments Only/n1:30 PM/nAppointments Only/n3:00 PM/nAppointments Only/n5:00 PM/nAppointments Only/n6:30 PM/nAppointments Only - ASL/n8:00 PM/nAppointments Only",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019/nWednesday, 25 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nSaturday, 4 April 2020/nMonday, 6 April 2020 - Monday, 20 April 2020/nSaturday, 4 July 2020/nSaturday, 3 October 2020/nMonday, 19 October 2020 - Monday, 2 November 2020/nWednesday, 25 November 2020 (Limited Hours)/nThursday, 26 November 2020/nThursday, 24 December 2020/nFriday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/redlands-california/400x250/redlands-temple-lds-929893-wallpaper.jpg"
+    },
+    {
+    "name": "Sacramento California Temple",
+        "address": "2110 California Cir/nRancho Cordova CA 95742-6415/nUnited States",
+        "phone": "(1) 916-357-5870",
+        "email": "Please visit:https://www.churchofjesuschrist.org/temples/details/sacramento-california-temple?lang=eng to email the Sacramento California Temple.",
+        "services": "No clothing rental available/nNo cafeteria available/nNo patron housing available/nDistribution center nearby",
+        "sessionschedule": "7:00 AM/nWalk-ins and Appointments/n8:30 AM/nWalk-ins and Appointments/n10:00 AM/nWalk-ins and Appointments/n12:00 PM/nWalk-ins and Appointments/n1:30 PM/nWalk-ins and Appointments/n3:00 PM/nWalk-ins and Appointments/n5:00 PM/nWalk-ins and Appointments/n6:30 PM/nWalk-ins and Appointments/n8:00 PM/nWalk-ins and Appointments",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019/nWednesday, 25 December 2019/nTuesday, 31 December 2019 (Limited Hours)/n2020/nWednesday, 1 January 2020/nTuesday, 4 February 2020 - Monday, 17 February 2020/nSaturday, 4 April 2020/nSaturday, 4 July 2020/nTuesday, 4 August 2020 - Monday, 17 August 2020/nSaturday, 3 October 2020/nWednesday, 25 November 2020 (Limited Hours)/nThursday, 26 November 2020/nThursday, 24 December 2020/nFriday, 25 December 2020/nThursday, 31 December 2020 (Limited Hours)",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sacramento-california/400x250/sacramento-temple-769989-wallpaper.jpg"
+    },
+    {
+    "name": "San Diego California Temple",
+        "address": "7474 Charmant Dr/nSan Diego CA 92122-5000/nUnited States",
+        "phone": "(1) 858-622-0991",
+        "email": "Please visit:https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng to email the San Diego Temple.",
+        "services": "Clothing rental available/nCafeteria available/nNo patron housing available/nDistribution center nearby",
+        "sessionschedule": "8:00 AM/nWalk-ins and Appointments/n9:00 AM/nWalk-ins and Appointments/n9:30 AM/nWalk-ins and Appointments/n10:00 AM/nWalk-ins and Appointments/n11:00 AM/nWalk-ins and Appointments/n12:00 PM/nWalk-ins and Appointments/n1:00 PM/nWalk-ins and Appointments/n2:00 PM/nWalk-ins and Appointments/n3:00 PM/nWalk-ins and Appointments/n4:00 PM/nWalk-ins and Appointments/n5:00 PM/nWalk-ins and Appointments/n6:00 PM/nWalk-ins and Appointments/n6:30 PM/nWalk-ins and Appointments - ASL/n7:00 PM/nWalk-ins and Appointments/n7:30 PM/nWalk-ins and Appointments",
+        "ordinanceschedule": "Please call for information regarding other ordinances.",
+        "templeclosures": "2019/nTuesday, 24 December 2019 - Wednesday, 25 December 2019/nTuesday, 31 December 2019/n2020/nWednesday, 1 January 2020/nMonday, 16 March 2020 - Monday, 30 March 2020/nSaturday, 4 April 2020/nSaturday, 4 July 2020/nMonday, 14 September 2020 - Monday, 28 September 2020/nSaturday, 3 October 2020/nWednesday, 25 November 2020 - Thursday, 26 November 2020/nThursday, 24 December 2020 - Friday, 25 December 2020/nThursday, 31 December 2020",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-diego-california/400x250/san-diego-temple-765109-wallpaper.jpg"
+
+    }
+]
+}

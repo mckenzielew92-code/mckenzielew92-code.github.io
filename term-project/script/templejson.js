@@ -1,13 +1,16 @@
 //Temples JSON
- const jsonSource = "https://mckenzielew92-code.github.io/temples-json.html";
- fetch(jsonSource)
-     .then((response) => response.json())
-     .then((jsObject) => {
-        console.log(jsObject);
+const requestURL = 'https://mckenzielew92-code.github.io/thetemples.json';
+fetch(requestURL)
+
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
 
         var temples = jsonObject["temples"];
-        for (let i=0; i < temples.length; i++){
-        
+
+        for (let i = 0; i < temples.length; i++) {
+
             let art = document.createElement("article");
             let sec = documnet.createElement("section");
             let temple = document.createElement('h3');
@@ -28,15 +31,12 @@
             closures.textContent = temples[i].templeclosures;
             image.textContent = temples[i].imageurl;
 
-
-
-
-            let alt = temples[i].name + " " + i;
+            let alt = temples[i].name + " " + "picture";
             temple.textContent = temples[i].name;
 
 
             image.setAttribute('src', temples[i].imageurl);
-            image.setAttribute('alt',alt);
+            image.setAttribute('alt', alt);
 
             art.appendChild(sec);
             sec.appendChild(temple);
@@ -47,4 +47,5 @@
             document.querySelector('span#temples').appendChild(art);
         }
 
-     });
+
+    });

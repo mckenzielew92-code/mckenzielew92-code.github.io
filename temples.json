@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="JSON information for the temples page in the temple inn suites website">
-    <title>Temples JSON</title>
-</head>
-<body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;">
-    {
+     {
         "temples": [{
             "name": "Fresno California Temple",
             "address": "6290 N Valentine Ave/nFresno CA 93711/nUnited States",
@@ -90,6 +79,3 @@
         }
     ]
  }
-    </pre>
-</body>
-</html>

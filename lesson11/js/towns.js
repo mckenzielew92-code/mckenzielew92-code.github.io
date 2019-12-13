@@ -45,7 +45,7 @@ for (let i = 0; i < towns.length; i++ ) {
   
     document.querySelector('div.towns').appendChild(card);
    }
-   
+     
   
     
 }
