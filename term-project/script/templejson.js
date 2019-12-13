@@ -1,5 +1,5 @@
 //Temples JSON
-const requestURL = 'https://mckenzielew92-code.github.io/thetemples.json';
+const requestURL = 'https://github.com/mckenzielew92-code/mckenzielew92-code.github.io/blob/master/term-project/the-temples.json';
 fetch(requestURL)
 
     .then(function (response) {
