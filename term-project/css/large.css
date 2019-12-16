@@ -92,7 +92,6 @@ main{
 }
 main h2{
     font-size: 2em;
-    text-align: center;
 }
 main h3{
     font-size: 1.75em;
@@ -202,6 +201,35 @@ textarea{
 }
 label#comments{
     width: 20%;
+}
+/************SERVICES**********/
+li.serv-li{
+    color:#1a535c;
+}
+div.one-half-width{
+width: 50%;
+}
+
+main section#image-links{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+a.link figure img{
+    height: 141px;
+}
+/***********RECEPTION HALL***********/
+a.link{
+    color: #4ecdc4;
+    font-size: 1.1em;
+    font-style: italic;
+}
+a.link:hover{
+    color:#ffe66d;
+    font-style: initial;
+}
+a.link figure img:hover{
+    opacity:.5;
 }
 /******************FOOTER********************/
 footer{

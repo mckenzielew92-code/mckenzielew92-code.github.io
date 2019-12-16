@@ -11,7 +11,7 @@
         text-align: center;
         padding: 5px;
     }
-    ul li:first-child{
+    ul li.ham{
         font-size: 2em;
     }
     section{
