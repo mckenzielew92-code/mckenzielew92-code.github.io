@@ -238,6 +238,12 @@ div.rec-div{
 div.rec-div p{
     padding: 10px;
 }
+/**************MISSIONARY SUITES**************/
+#grid-holder{
+    display:grid;
+    grid-gap: 0px;
+    grid-template-columns: 300px 300px 300px;
+}
 /******************FOOTER********************/
 footer{
 border-top: solid 2px #1a535c;
