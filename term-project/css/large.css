@@ -231,6 +231,13 @@ a.link:hover{
 a.link figure img:hover{
     opacity:.5;
 }
+div.rec-div{
+    display:flex;
+    margin: 20px;
+}
+div.rec-div p{
+    padding: 10px;
+}
 /******************FOOTER********************/
 footer{
 border-top: solid 2px #1a535c;
