@@ -26,4 +26,19 @@
     header h2{
         display:none;
     }
+    main section#image-links{
+        flex-flow: column;
+        justify-content: center; 
+    }
+    a.link figure img{
+        height: initial;
+    }
+
+    section#contact{
+        flex-flow: column;
+    }
+    #map{
+        margin:10px;
+        width:100%;
+    }
 }

@@ -33,10 +33,34 @@
         </ul>
     </nav>
     <main>
-
+        <section id="contact">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.40501970133!2d-77.09772048465291!3d38.983251779557385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576677116465!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div id="contact-info">
+                <h2>Contact Information:</h2>
+                <p class="larger">Phone:</p> <p>1(949) 355-7868</p>
+                <p class="larger">Email:</p> <p>thetempleinnsuiteshotel@inncast.com</p>
+                <p class="larger">Address:<address>4800 Montgomery Ln #300, Bethesda, MD 20814</address></p>
+            </div>
+        </section>
+        <h2>
+            Contact Us:
+        </h2>
+        <form>
+            <fieldset>
+                <label><span>*</span>Name:<input type="text" name="theirname" required pattern="[A-Za-z ] {5,}"></label>
+                <label><span>*</span>Email:<input type="email" name="email" placeholder="someonesemail@email.com"
+                        required></label>
+                <div class="comments">
+                    <label>Questions/Comments:</label><textarea name="comments" rows="10" cols="50"></textarea>
+                </div>
+                <label id="submit">
+                    <input class="btn" type="submit" value="Send">
+                </label>
+            </fieldset>
+        </form>
     </main>
     <footer>
-            &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project
+        &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project
     </footer>
     <script src="script/script.js"></script>
 

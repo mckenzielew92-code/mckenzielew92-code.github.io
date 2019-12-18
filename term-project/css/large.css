@@ -105,6 +105,7 @@ main h5{
 main h6{
     font-size: 1em;
 }
+/**********HOME PAGE************/
 img#temple-home{
     width:100%;
     position: relative;
@@ -119,7 +120,7 @@ div#reserve-button{
     margin: 5%;
     box-shadow: 2px 2px 10px #514F4F;
 }
-div#reserve-button a{
+a div#reserve-button{
     color: #ff6b6b;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -202,7 +203,7 @@ textarea{
     box-shadow: 2px 2px 10px #514F4F;
     color: #ffe66d;
 }
-label#comments{
+label.comments{
     width: 20%;
 }
 /************SERVICES**********/
@@ -247,17 +248,31 @@ div.rec-div p{
     grid-gap: 0px;
     grid-template-columns: 1fr 1fr 1fr;
 }
-div#comments{
+div.comments{
     display:flex;
     flex-direction: column;
 }
-div#comments label{
+div.comments label{
     margin-bottom: 10px;
 }
 label input{
     width: 50%;
 }
-
+/*****************CONTACT*********************/
+address{
+    color: #1a535c;
+    font-style: normal;
+    display:inline;
+}
+.larger{
+    font-size: 1.15em;
+}
+section#contact{
+    display:flex;
+}
+#map{
+    margin:20px;
+}
 /******************FOOTER********************/
 footer{
 border-top: solid 2px #1a535c;
