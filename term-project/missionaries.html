@@ -58,24 +58,30 @@
                 <figcaption>Kitchen</figcaption>
             </figure>
             <figure class="gallery">
-                <img src="../images/office.jpg" alt="missionary office picutre">
-                <figcaption>Office Space</figcaption>
+                <img src="../images/vanity.jpg" alt="missionary suite vanity picutre">
+                <figcaption>Vanity</figcaption>
             </figure>
+
             <figure class="gallery">
                 <img src="../images/balcony.jpg" alt="missionary suite balcony picutre">
                 <figcaption>Balcony</figcaption>
             </figure>
             <figure class="gallery">
-                    <img src="../images/vanity.jpg" alt="missionary suite vanity picutre">
-                    <figcaption>Vanity</figcaption>
-                </figure>
+                <img src="../images/office.jpg" alt="missionary office picutre">
+                <figcaption>Office Space</figcaption>
+            </figure>
         </div>
         <h2>Contact Us For More Details</h2>
         <form>
             <fieldset>
-                <label>Name:</label>
-                <label>
-                    
+                <label><span>*</span>Name:<input type="text" name="theirname" required pattern="[A-Za-z ] {5,}"></label>
+                <label><span>*</span>Email:<input type="email" name="email" placeholder="someonesemail@email.com"
+                        required></label>
+                <div id="comments">
+                    <label>Questions/Comments:</label><textarea name="comments" rows="10" cols="50"></textarea>
+                </div>
+                <label id="submit">
+                    <input class="btn" type="submit" value="Send">
                 </label>
             </fieldset>
         </form>

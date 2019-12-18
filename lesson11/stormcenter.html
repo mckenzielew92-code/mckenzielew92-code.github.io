@@ -63,8 +63,8 @@
                 <label class="info req">*First & Last Name: <input class="req" type="text" name="flname" required
                         pattern="[A-Za-z ]{5,}"></label>
                 <label class="info req">*Phone Number:<input class="req" type="tel" name="phone" required></label>
-                <label class="info">Email:<input type="email" name="email"
-                        placeholder="http://www.someonesemail@email.com" required></label>
+                <label class="info">Email:<input type="email" name="email" placeholder="someonesemail@email.com"
+                        required></label>
                 <label class="info req">*Zip Code:<input class="req" type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
@@ -113,14 +113,16 @@
                     </label>
                     <label>Maybe<input class="storm radio" type="radio" name="danger" value="maybedanger">
                     </label>
-                    </div>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>
                     Additional Information or Comments
                 </legend>
-                <label class="end">Details:<textarea name="comments" rows="10" cols="120"></textarea>
-                </label>
+                <div id="comments">
+                    <label class="end">Details:</label>
+                    <textarea name="comments" rows="10" cols="120"></textarea>
+                </div>
             </fieldset>
             <label id="submit">
                 <input class="btn" type="submit" value="Send Report">

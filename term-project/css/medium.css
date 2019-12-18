@@ -20,4 +20,10 @@
     img#newport-temple-img{
         width: 100%;
     }
+    #grid-holder{
+        grid-template-columns: 1fr 1fr;
+    }
+    header h2{
+        display:none;
+    }
 }
