@@ -5,4 +5,7 @@
     #grid-holder img{
         width: 75%;
     }
+    header h1{
+        display:none;
+    }
 }

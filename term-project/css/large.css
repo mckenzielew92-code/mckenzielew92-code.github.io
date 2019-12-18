@@ -151,6 +151,9 @@ img#newport-temple-img{
 }
 figcaption{
     padding-left: 15px;
+    color: #1a535c;
+    font-style: italic;
+    font-size: .9em;
 }
 p#newport-p{
     margin-top:-10px;
