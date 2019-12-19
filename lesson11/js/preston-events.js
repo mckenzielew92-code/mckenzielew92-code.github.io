@@ -11,7 +11,7 @@ const towns = jsonObject["towns"];
 
 
 for (let i = 0; i < towns.length; i++ ) {
-//I tried to do if (towns[i].name == where) bleow, that did not work...
+//I tried to do if (towns[i].name == where) below, that did not work...
     if (towns[i].name == "Preston"){
 
     const events = towns[i].events;

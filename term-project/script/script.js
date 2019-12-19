@@ -1,3 +1,11 @@
+ //WEB FONT
+ WebFont.load({
+    google: {
+        families: [
+            "Baskervville", "Dancing Script"
+        ]
+    }
+});
  //YEAR AFTER COPYRIGHT
  let d = new Date();
  document.getElementById("year").innerHTML = d.getFullYear();
