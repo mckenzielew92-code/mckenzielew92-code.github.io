@@ -222,7 +222,6 @@ main section#image-links{
 a.link figure img{
     height: 141px;
 }
-/***********RECEPTION HALL***********/
 a.link{
     color: #4ecdc4;
     font-size: 1.1em;
@@ -232,6 +231,8 @@ a.link:hover{
     color:#ffe66d;
     font-style: initial;
 }
+/***********RECEPTION HALL***********/
+
 a.link figure img:hover{
     opacity:.5;
 }

@@ -41,4 +41,17 @@
         margin:10px;
         width:100%;
     }
+    div.rec-div{
+        flex-direction: column;
+        
+    }
+    div.rec-div img#one{
+    width: 300px;
+    padding: 20px;
+    }
+    div.rec-div img#cater{
+        width: 230px;
+        padding: 20px;
+    }
 }
+

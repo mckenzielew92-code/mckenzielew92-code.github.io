@@ -8,4 +8,10 @@
     header h1{
         display:none;
     }
+    div.rec-div img#one{
+        width: 200px;
+        }
+        div.rec-div img#cater{
+            width: 150px;
+        }
 }
