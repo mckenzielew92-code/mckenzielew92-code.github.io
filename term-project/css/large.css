@@ -293,6 +293,9 @@ section.temple-weather{
     display:flex;
     justify-content: space-between;
 }
+p ul li{
+    color:#1a535c;
+}
 /******************FOOTER********************/
 footer{
 border-top: solid 2px #1a535c;
