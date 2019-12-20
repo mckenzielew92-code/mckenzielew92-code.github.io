@@ -53,5 +53,12 @@
         width: 230px;
         padding: 20px;
     }
+    section.temple-json{
+        flex-flow: column;
+    }
+    section.temple-json div{
+        width: 75%;
+        margin: 10px;
+    }
 }
 
