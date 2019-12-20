@@ -278,6 +278,14 @@ section#contact{
 section.temple-json{
     display:flex;
 }
+h2.name{
+    padding: 15px;
+    border-top: solid 1px #1a535c;
+}
+section.temple-json div{
+    width: 40%;
+    margin: 20px;
+}
 section.temple-weather{
     display:flex;
     justify-content: space-between;
