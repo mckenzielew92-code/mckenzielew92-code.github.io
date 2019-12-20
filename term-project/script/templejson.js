@@ -10,10 +10,8 @@ fetch(requestURL)
 
         const temples = jsonObject["temples"];
          {
-
             let closure = 'closed-days-1';
             document.getElementById(closure).textContent = temples[0].templeclosures;
-
         }
 
 

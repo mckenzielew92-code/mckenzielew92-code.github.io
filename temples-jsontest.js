@@ -280,3 +280,50 @@ fetch(sdURL)
 
 );
 
+
+
+
+
+//TESTING HOW TO MAKE A LIST OUT OF THE JSON
+//Fresno Closures
+const requestURL = 'https://mckenzielew92-code.github.io/the-temples.json';
+
+fetch(requestURL)
+
+    .then(function (response){
+        return response.json();
+    })
+    .then(function (jsonObject) {
+
+        const temples = jsonObject["temples"];
+
+        for (let i = 0; i < temples.length; i++){
+            if (temples[i].name == "Fresno California Temple"){
+
+         const closed = temples.templeclosures;
+         let unOrdered = document.createElement('ul');
+
+         for (let c = 0; c < closed.length; c++){
+            let list = document.createElement('li');
+            list.textContent = closed[c];
+            unOrdered.appendChild(list);}
+
+            let closure = 'closed-days-1';
+            let card = document.createElement('article');
+            let fillCard = document.createElement('section');
+            let heading = document.createElement('p');
+            let inheading = document.createElement('span');
+
+            fillCard.appendChild(heading);
+            heading.appendChild(inheading);
+            inheading.appendChild(unOrdered);
+
+
+            
+            document.getElementById(closure).textContent = temples[0].templeclosures;
+    
+
+            document.querySelector('span.closure').appendChild(card);
+         }
+        }
+    });
