@@ -280,7 +280,10 @@ section.temple-json{
 }
 h2.name{
     padding: 15px;
-    border-top: solid 1px #1a535c;
+    border-top: solid 1px #ffe66d;
+}
+p span.title{
+    font-size:1.15em;
 }
 section.temple-json div{
     width: 40%;
