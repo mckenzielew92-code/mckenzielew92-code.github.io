@@ -7,10 +7,10 @@
     <meta name="description" content="This is the services page of my cit230 term project: Temple Inn Suites Website.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Baskervville|Dancing+Script&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" media="screen" type="text/css">
     <link href="css/large.css" rel="stylesheet" media="screen" type="text/css">
     <link href="css/medium.css" rel="stylesheet" media="screen" type="text/css">
     <link href="css/small.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="css/normalize.css" rel="stylesheet" media="screen" type="text/css">
     <title>Temple Suites Inn Homepage</title>
 </head>
 
@@ -33,14 +33,357 @@
         </ul>
     </nav>
     <main>
-            <h2>California Temples List</h2>
-        <span id="temples"></span> 
-        <span id="temple-weather"></span>      
+        <h1>California Temple List</h1>
+
+        <h2>Fresno California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/fresno-california-temple.jpg" alt="Picutre of the Fresno California Temple.">
+                <p>Address:</p>
+                <address>6290 N Valentine Ave<br>Fresno CA 93711<br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/fresno-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span>(1) 559-437-9451</p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-1"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-1"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-1"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-1"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-1"></span>
+            </div>
+        </section>
+        <h2>Los Angeles California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/los-angeles-temple.jpg" alt="Picutre of the Los Angeles California Temple.">
+                <p>Address:</p>
+                <address><br>Los Angeles CA <br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-2"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-2"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-2"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-2"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-2"></span>
+            </div>
+        </section>
+        <h2>Newport Beach California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/newport-beach-temple-2.jpg" alt="Picutre of the Los Angeles California Temple.">
+                <p>Address:</p>
+                <address><br>Newport Beach CA <br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-3"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-3"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-3"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-3"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-3"></span>
+            </div>
+        </section>
+        <h2>Oakland California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/oakland-temple.jpg" alt="Picutre of the Oakland California Temple.">
+                <p>Address:</p>
+                <address><br>Oakland CA <br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-4"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-4"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-4"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-4"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-4"></span>
+            </div>
+        </section>
+        <h2>Redlands California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/redlands-temple.jpg" alt="Picutre of the Redlands California Temple.">
+                <p>Address:</p>
+                <address>1761 Fifth Ave<br>Redlands CA 92374<br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-5"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-5"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-5"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-5"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-5"></span>
+            </div>
+        </section>
+        <h2>Sacramento California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/sacramento-temple.jpg" alt="Picutre of the Redlands California Temple.">
+                <p>Address:</p>
+                <address>1761 Fifth Ave<br>Redlands CA 92374<br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-6"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-6"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-6"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-6"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-6"></span>
+            </div>
+        </section>
+        <h2>San Diego California Temple</h2>
+        <section class="temple-json">
+            <div>
+                <img src="../images/san-diego-temple.jpg" alt="Picutre of the Redlands California Temple.">
+                <p>Address:</p>
+                <address>1761 Fifth Ave<br>Redlands CA 92374<br>United States</address>
+                <p>Please visit: <a class="link"
+                        href="https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng">This
+                        link</a> to send an email to the Fresno California Temple.</p>
+                <p><span class="title">Phone: </span></p>
+                <p><span class="title">Services: </span>
+                    <ul>
+                        <li>No clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>No distribution center nearby</li>
+                    </ul>
+            </div>
+            <div>
+                <p><span class="title">Session Schedule: </span></p>
+                <ul>
+                    <li>8:00 A.M.<br>Walk-Ins and Appointments - English
+                    </li>
+                    <li>9:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>11:30 A.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>6:00 P.M.<br>Walk-Ins and Appointments - English</li>
+                    <li>7:30 P.M.<br>Walk-Ins and Appointments - English</li>
+                </ul>
+                <p><span class="title">Ordinance Schedule: </span>Please call for information regarding ordinance work.
+                </p>
+                <p><span class="title">Temple Closures: </span></p>
+                <span id="closed-days-7"></span>
+            </div>
+        </section>
+        <h4>Weather Summary</h4>
+        <section class="temple-weather">
+            <div>
+                <p><span class="title">Current Weather Condition:</span></p> <span id="weather-7"></span>
+            </div>
+            <div>
+                <p><span class="title">Temperature:</span></p> <span id="temperature-7"></span>
+            </div>
+            <div>
+                <p><span class="title">Humidity:</span></p> <span id="humidity-7"></span>
+            </div>
+            <div>
+                <p><span class="title">Wind Speed:</span></p> <span id="wind-7"></span>
+            </div>
+        </section>
     </main>
     <footer>
-            <a class="link" href="#top">Back to Top</a>
-            <br>
-        &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project | <a class="link"  href="resources.html">Resources</a>
+        <a class="link" href="#top">Back to Top</a>
+        <br>
+        &copy;<span id="year"></span> | McKenzie Lewis | CIT230 | Final Term Project | <a class="link"
+            href="resources.html">Resources</a>
     </footer>
     <script src="script/script.js"></script>
     <script src="script/templejson.js"></script>

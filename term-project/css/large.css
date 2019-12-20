@@ -274,6 +274,14 @@ section#contact{
 #map{
     margin:20px;
 }
+/*****************TEMPLE PAGE****************/
+section.temple-json{
+    display:flex;
+}
+section.temple-weather{
+    display:flex;
+    justify-content: space-between;
+}
 /******************FOOTER********************/
 footer{
 border-top: solid 2px #1a535c;
