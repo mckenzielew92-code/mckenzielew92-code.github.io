@@ -293,7 +293,10 @@ section.temple-weather{
     display:flex;
     justify-content: space-between;
 }
-p ul li{
+div ul li{
+    color:#1a535c;
+}
+div span{
     color:#1a535c;
 }
 /******************FOOTER********************/
